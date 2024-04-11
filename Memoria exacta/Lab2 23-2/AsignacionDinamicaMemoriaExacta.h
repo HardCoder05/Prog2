@@ -18,6 +18,7 @@ using namespace std;
 void lecturaDeProductos(const char *,char ***&, int *&,double *&);
 char **leerProd(ifstream &);
 char* leerCadena(ifstream &,int ,char );
+void cargaarreglos(char ***&,int *&,double *&,char ***,int *,double *,int );
 void pruebaDeLecturaDeProductos(const char *,char ***, int *,double *);
 
 void lecturaDePedidos(const char *,int *&,char ***&,int ***&);
