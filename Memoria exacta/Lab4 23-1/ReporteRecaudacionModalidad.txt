@@ -1,0 +1,179 @@
+                                                  ENTIDAD EDUCATIVA LP1
+                                                    LISTADOS DE CLASE
+========================================================================================================================
+01) APLICACIONES DE LAS CIENCIAS DE LA COMPUTACION            Créditos: 3
+------------------------------------------------------------------------------------------------------------------------
+ALUMNOS Matriculados
+------------------------------------------------------------------------------------------------------------------------
+                                                                                     PAGOS
+   CÓDIGO    NOMBRE                                            ESCALA    PRESENCIAL     SEMIPRESENCIAL      VIRTUAL        
+------------------------------------------------------------------------------------------------------------------------
+01)  8072   Rivera Montero Gloria Ofelia                          3                                          715.37
+02)  4919   Cortes Calixto Rosario                                5                            1167.08
+03)  5527   Justino Collado Luz Delicia                           3                             476.91
+04)  6038   Saona Arias Alberto                                   4                             487.11
+05)  4628   Palomares Guevara Karina                              5         2334.15
+06)  5067   Jauregui Aguero Hector Henry                          4                             974.23
+07)  4285   Chavarri Aldave Fernando Martin                       2                             316.75
+08)  3627   Chavez Caro Yvonne                                    1                                          444.62
+09)  6517   Zegarra Cuba Antonio                                  2         1267.00
+10)  9958   Quispe Berrocal Antonio Alvaro Daniel                 3         1589.70
+11)  2000   Landa Cueva Johan                                     4                                          876.80
+12)  5724   Vega Saenz Alexander Richard                          4                             974.23
+13)  3249   Norabuena Pairazaman Julian                           3         1589.70
+14)  5400   Santisteban Jugo Nestor                               1                             296.42
+15)  1397   Zevallos Prado Ricardo                                2                             633.50
+16)  9437   Zimic Paredes Shirley                                 4                             487.11
+17)  6015   Alfaro Fuentes Magda                                  3                                          715.37
+18)  8320   Norabuena Rivera Gloria Yessica                       5                                         1050.37
+19)  1247   Serrano Jolay Rhony Rolando                           5         2334.15
+20)  9707   Miranda Larriega Juvenal Nestor                       2                             380.10
+========================================================================================================================
+RECAUDACIÓN POR MODALIDAD DE ESTUDIO                                        9114.70            6193.43      3802.52
+------------------------------------------------------------------------------------------------------------------------
+TOTAL RECAUDADO:                                                                                           15308.13
+========================================================================================================================
+02) LENGUAJE DE PROGRAMACION 1                                Créditos: 5
+------------------------------------------------------------------------------------------------------------------------
+ALUMNOS Matriculados
+------------------------------------------------------------------------------------------------------------------------
+                                                                                     PAGOS
+   CÓDIGO    NOMBRE                                            ESCALA    PRESENCIAL     SEMIPRESENCIAL      VIRTUAL        
+------------------------------------------------------------------------------------------------------------------------
+01)  6995   Larriega Arca Isabel Madeleine                        5         3334.50
+02)  5527   Justino Collado Luz Delicia                           3                             681.30
+03)  5400   Santisteban Jugo Nestor                               1                             423.45
+04)  3745   Caro Quispe Jorge                                     1                                          635.18
+05)  1325   Mori Arroyo Shirley                                   3         2271.00
+06)  8383   Gordillo Bolanos Arturo Gonzalo                       3         2271.00
+07)  2598   Mori Zavaleta Luz Lourdes                             1                             352.88
+08)  9611   Maldonado Correa Lucero Carola                        2         1810.00
+09)  6490   Tavera Correa Fernando                                2                             905.00
+10)  6929   Bolanos Fuentes Jorge                                 2                             905.00
+11)  3627   Chavez Caro Yvonne                                    1                                          635.18
+12)  3402   Vizcardo Mori Lucero Zkenia                           1         1411.50
+13)  5775   Prado Paredes Juan                                    3                            1135.50
+14)  4919   Cortes Calixto Rosario                                5                            1667.25
+15)  3758   Soma Inga Dialy                                       1         1411.50
+16)  3373   Escalante Raraz Blanca                                3         2271.00
+17)  5067   Jauregui Aguero Hector Henry                          4                            1391.75
+18)  2501   Cortes Reyes Maribel                                  2                                          814.50
+19)  4712   Casanova Chumpitaz Alonso                             2                                          814.50
+20)  1748   Patino Fuentes Milagros Mariella                      4                                         1252.58
+21)  1155   Corrales Zimic Jaime Daniel                           5         3334.50
+22)  6038   Saona Arias Alberto                                   4                             695.88
+23)  2360   Vilca Barrera Cesar Edgar                             5                            1667.25
+24)  5643   Iberos Zambrano Gonzalo                               2         1810.00
+25)  7660   Chang Arguedas Henry Antonio                          4                             695.88
+========================================================================================================================
+RECAUDACIÓN POR MODALIDAD DE ESTUDIO                                       19925.00           10521.12      4151.93
+------------------------------------------------------------------------------------------------------------------------
+TOTAL RECAUDADO:                                                                                           34248.65
+========================================================================================================================
+03) LENGUAJE DE PROGRAMACION 2                                Créditos: 5
+------------------------------------------------------------------------------------------------------------------------
+ALUMNOS Matriculados
+------------------------------------------------------------------------------------------------------------------------
+                                                                                     PAGOS
+   CÓDIGO    NOMBRE                                            ESCALA    PRESENCIAL     SEMIPRESENCIAL      VIRTUAL        
+------------------------------------------------------------------------------------------------------------------------
+01)  4628   Palomares Guevara Karina                              5         3334.50
+02)  5724   Vega Saenz Alexander Richard                          4                            1391.75
+03)  1325   Mori Arroyo Shirley                                   3         2271.00
+04)  6249   Wong Gallo Janet Madeleine                            1                             423.45
+05)  3508   Auris Jolay Henry Edilberto                           5                            1667.25
+06)  3627   Chavez Caro Yvonne                                    1                                          635.18
+07)  2501   Cortes Reyes Maribel                                  2                                          814.50
+08)  6490   Tavera Correa Fernando                                2                             905.00
+09)  5318   Florencio Lam Paul Ronald                             3         2271.00
+10)  5763   Correa Aguirre Moises                                 2                             543.00
+11)  4739   Velasquez Cano Fernando                               4                            1391.75
+12)  9437   Zimic Paredes Shirley                                 4                             695.88
+13)  4569   Rivera Pasquel Ofelia Cinthia                         5         3334.50
+14)  9785   Farfan Raraz Waldemar                                 4                            1391.75
+15)  2360   Vilca Barrera Cesar Edgar                             5                            1667.25
+16)  4285   Chavarri Aldave Fernando Martin                       2                             452.50
+17)  2000   Landa Cueva Johan                                     4                                         1252.58
+18)  6038   Saona Arias Alberto                                   4                             695.88
+19)  1260   Gordillo Castro Ronal                                 2         1810.00
+20)  8383   Gordillo Bolanos Arturo Gonzalo                       3         2271.00
+21)  2050   Loyola Hijar Nicolas Oscar                            4                                         1252.58
+22)  3758   Soma Inga Dialy                                       1         1411.50
+23)  7030   Luna Polo Sonia                                       3                                         1021.95
+24)  9153   Mendoza Arias Henry                                   4         2783.50
+25)  1247   Serrano Jolay Rhony Rolando                           5         3334.50
+========================================================================================================================
+RECAUDACIÓN POR MODALIDAD DE ESTUDIO                                       22821.50           11225.45      4976.77
+------------------------------------------------------------------------------------------------------------------------
+TOTAL RECAUDADO:                                                                                           42001.40
+========================================================================================================================
+04) ALGORITMIA                                                Créditos: 3
+------------------------------------------------------------------------------------------------------------------------
+ALUMNOS Matriculados
+------------------------------------------------------------------------------------------------------------------------
+                                                                                     PAGOS
+   CÓDIGO    NOMBRE                                            ESCALA    PRESENCIAL     SEMIPRESENCIAL      VIRTUAL        
+------------------------------------------------------------------------------------------------------------------------
+01)  7344   Del Pozo Quio Cesar                                   3                                          766.46
+02)  2000   Landa Cueva Johan                                     4                                          939.43
+03)  2050   Loyola Hijar Nicolas Oscar                            4                                          939.43
+04)  7030   Luna Polo Sonia                                       3                                          766.46
+05)  1260   Gordillo Castro Ronal                                 2         1357.50
+06)  7316   Rivero Rett Rony Antonio                              2                             407.25
+07)  4712   Casanova Chumpitaz Alonso                             2                                          610.88
+08)  3249   Norabuena Pairazaman Julian                           3         1703.25
+09)  9719   Maeireizo Vasquez Lourdes Silvia                      2         1357.50
+10)  4285   Chavarri Aldave Fernando Martin                       2                             339.38
+11)  5763   Correa Aguirre Moises                                 2                             407.25
+12)  6015   Alfaro Fuentes Magda                                  3                                          766.46
+13)  4918   Portugal Guevara Heli Johana                          5                            1250.44
+14)  9958   Quispe Berrocal Antonio Alvaro Daniel                 3         1703.25
+15)  2447   Vilca Justino Melvin                                  1                                          476.38
+========================================================================================================================
+RECAUDACIÓN POR MODALIDAD DE ESTUDIO                                        6121.50            2404.31      5265.51
+------------------------------------------------------------------------------------------------------------------------
+TOTAL RECAUDADO:                                                                                           21457.03
+========================================================================================================================
+05) ANALISIS DE DATOS                                         Créditos: 3
+------------------------------------------------------------------------------------------------------------------------
+ALUMNOS Matriculados
+------------------------------------------------------------------------------------------------------------------------
+                                                                                     PAGOS
+   CÓDIGO    NOMBRE                                            ESCALA    PRESENCIAL     SEMIPRESENCIAL      VIRTUAL        
+------------------------------------------------------------------------------------------------------------------------
+01)  5775   Prado Paredes Juan                                    3                             681.30
+02)  3508   Auris Jolay Henry Edilberto                           5                            1000.35
+03)  2447   Vilca Justino Melvin                                  1                                          381.11
+04)  6929   Bolanos Fuentes Jorge                                 2                             543.00
+05)  1155   Corrales Zimic Jaime Daniel                           5         2000.70
+========================================================================================================================
+RECAUDACIÓN POR MODALIDAD DE ESTUDIO                                        2000.70            2224.65       381.11
+------------------------------------------------------------------------------------------------------------------------
+TOTAL RECAUDADO:                                                                                           22422.08
+========================================================================================================================
+06) FUNDAMENTOS DE PROGRAMACION                               Créditos: 4
+------------------------------------------------------------------------------------------------------------------------
+ALUMNOS Matriculados
+------------------------------------------------------------------------------------------------------------------------
+                                                                                     PAGOS
+   CÓDIGO    NOMBRE                                            ESCALA    PRESENCIAL     SEMIPRESENCIAL      VIRTUAL        
+------------------------------------------------------------------------------------------------------------------------
+01)  7660   Chang Arguedas Henry Antonio                          4                             556.70
+02)  5778   Munoz Zimic Rocio Delicia                             2                             724.00
+03)  8318   Tokeshi Gonzales Martin                               1                             564.60
+04)  5494   De La Haza Castro Emigdio Johnny                      2                             434.40
+05)  6453   Minaya Vizcarra Juvenal                               3                             454.20
+06)  1155   Corrales Zimic Jaime Daniel                           5         2667.60
+07)  2742   Zavaleta Lopez Karin Virginia                         5         2667.60
+08)  3122   Cuba Narvaez Paul John                                2         1448.00
+09)  4918   Portugal Guevara Heli Johana                          5                            1333.80
+10)  5318   Florencio Lam Paul Ronald                             3         1816.80
+========================================================================================================================
+RECAUDACIÓN POR MODALIDAD DE ESTUDIO                                        8600.00            4067.70         0.00
+------------------------------------------------------------------------------------------------------------------------
+TOTAL RECAUDADO:                                                                                           31245.53
+========================================================================================================================
+RECAUDACIÓN TOTAL POR MODALIDAD DE ESTUDIO:                                68583.40           36636.66     18577.83
+------------------------------------------------------------------------------------------------------------------------
+TOTAL GENERAL RECAUDADO:                                                                                  123797.90
+========================================================================================================================
