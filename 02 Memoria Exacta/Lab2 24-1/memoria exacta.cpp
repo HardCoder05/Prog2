@@ -68,7 +68,7 @@ void atencionDePedidos(const char *nom,char ***libros,int **&stock,
     int **&pedidosClientes,char ***&pedidosLibros,bool **&pedidosAtendidos){
     ifstream arch;
     AperturaDeUnArchivoDeTextosParaLeer(arch, nom);
-    int numPed, dni, *buffPedCli[200], nDat = 0, nDatPed = 0, cantPed[200]{};
+    int numPed, dni, *buffPedCli[200], nDat = 0, nDatPed = 0, cantPed[200]={0};
     char c, cod[8], **buffPedLib[200]{};
     bool *buffPedAten[200]{};
     
@@ -91,32 +91,6 @@ void atencionDePedidos(const char *nom,char ***libros,int **&stock,
         }
         nDatPed++;
     }
-    
-//    for(int i=0 ; i<nDat ; i++){
-//        int *aux = buffPedCli[i];
-//        cout<<aux[0]<<" "<<aux[1]<<endl;
-//        for(int j=0 ; j<aux[1] ; j++){
-//            cout<<aux[j+2]<<" ";
-//        }
-//        cout<<endl;
-//    }
-    
-    
-//    for(int i=0 ; i<nDatPed ; i++){
-//        bool *aux = buffPedAten[i];
-//        for(int j=0 ; j<cantPed[i] ; j++){
-//            cout<<aux[j]<<" ";
-//        }
-//        cout<<endl;
-//    }
-    
-//    for(int i=0 ; i<nDatPed ; i++){
-//        char **aux = buffPedLib[i];
-//        for(int j=0 ; j<cantPed[i] ; j++){
-//            cout<<aux[j]<<" ";
-//        }
-//        cout<<endl;
-//    }
     
     asignarMemoriaBuffers(buffPedAten, buffPedCli, buffPedLib, nDat, 
         nDatPed, cantPed, pedidosClientes, pedidosLibros, pedidosAtendidos);
@@ -141,7 +115,7 @@ void asignarMemoriaBuffers(bool **buffAtendidos,int **buffClientes,
         pedidosClientes[i] = buffClientes[i];
     }
     
-    for(int j=0 ; j<nDatPed ; j++){
+    for(int j=0 ; j<nDatPed ; j++){ //nDatPed = 172
         pedidosLibros[j] = buffPedLibros[j];
         pedidosAtendidos[j] = buffAtendidos[j];
     }
@@ -178,8 +152,8 @@ void recortarPedidos(char **&buffPedLibros, bool *&buffAtendidos,
     else{
         delete buffAtendidos;
         delete buffPedLibros;
-        buffAtendidos = nullptr;
-        buffPedLibros = nullptr;
+        buffAtendidos = auxAtendidos;
+        buffPedLibros = auxLibros;
     }
 }
 
@@ -226,7 +200,6 @@ void agregarLibros(char *cod,char **buffPedLib,int &cantPed,bool *buffPedAten,
     int posLibro = buscarLibro(cod, libros);
     if(posLibro != NO_ENCONTRADO){
         int *aux = stock[posLibro];
-        
         if(aux[0] > 0){
             buffPedAten[cantPed] = true;
             aux[0]--;
@@ -292,7 +265,7 @@ void imprimirLibros(ofstream &arch,char ***pedidosLibros,bool **pedidosAtendidos
 }
 
 void imprimirEncabezado(ofstream &arch){
-    arch<<setw(60)<<"REPORTE DE ATENCION DE PEDIDOS"<<endl;
+    arch<<setw(50)<<"REPORTE DE ATENCION DE PEDIDOS"<<endl;
     imprimirLinea(arch,'=');
 }
 
