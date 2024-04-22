@@ -106,32 +106,6 @@ void atencionDePedidos(const char *nom,char ***libros,int **stock,
         llenarClientes(pedidosClientes, dni, numPed, nClientes, capClientes, 
             capacidadesPedCli, numPedCli);
     }
-    
-//    for(int i=0 ; i<172 ; i++){
-//        if(pedidosLibros[i] != nullptr){
-//            cout<<i<<")";
-//            char **auxi = pedidosLibros[i];
-//            for(int j=0 ; auxi[j] ; j++){
-//                cout<<auxi[j]<<" ";
-//            }
-//            cout<<endl;
-//        }
-//    }
-//    
-//    for(int i=0 ; i<173 ; i++){
-//        if(pedidosAtendidos[i] != nullptr){
-//            bool *aux = pedidosAtendidos[i];
-//            cout << i << " )";
-//            for(int j=0 ; j<numPedLib[i] ; j++){
-//                cout<<aux[j]<<" ";
-//            }
-//            cout<<endl;
-//        }
-//    }
-//    
-//    for(int i=0 ; i<172 ; i++){
-//        cout<<numPedLib[i]<<endl;
-//    }
 }
 
 void llenarClientes(int **&pedidosClientes, int dni, int numPed, int &nClientes,
@@ -148,7 +122,6 @@ void llenarClientes(int **&pedidosClientes, int dni, int numPed, int &nClientes,
     insertarPedidos(pedidosClientes[pos], capacidades[pos], numDatos[pos], 
         dni, numPed);
 }
-
 
 int buscarCliente(int **pedidosClientes, int dni){
     if (pedidosClientes == nullptr) return NO_ENCONTRADO;
@@ -218,23 +191,27 @@ void incrementarMemoriaPedidos(int *&pedidosCliente, int &cap, int &numDatos){
 void llenarPedidos(ifstream &arch, char ***libros, int **&stock, 
     char ***&pedidosLibros, bool **&pedidosAtendidos, 
     int numPed, int &capPed, int *capacidades, int *numDatos){
+    bool bandera = false;
     
-    while(capPed < numPed) capPed += INCREMENTO; 
-    incrementarMemoriaPedidosLibros(pedidosLibros, pedidosAtendidos, 
-                numPed, capPed, capacidades, numDatos);
+    while(true){
+        if(capPed < numPed){
+            capPed += INCREMENTO;
+            bandera = true;
+        }else break;
+    }
     
-    //capacidades[numPed - 1] = 0;
-    //numDatos[numPed - 1] = 0;
+    if(bandera == true)incrementarMemoriaPedidosLibros(pedidosLibros, 
+        pedidosAtendidos, numPed, capPed, capacidades, numDatos); 
     
     char cod[8], *ptr;
     while(true){
-        if(arch.get() == '\n') break;
         arch>>cod;
         ptr = new char[strlen(cod) + 1];
         strcpy(ptr, cod);
         insertarLibros(libros, stock, pedidosLibros[numPed - 1],
             pedidosAtendidos[numPed - 1], capacidades[numPed - 1], 
             numDatos[numPed - 1], ptr);
+        if(arch.get() == '\n') break;
     }
 }
 
@@ -343,24 +320,20 @@ void reporteDeEntregaDePedidos (const char *nom,int **pedidosClientes,
 
 void imprimirLibros(ofstream &arch,char ***pedidosLibros,bool **pedidosAtendidos,
     int numPed){
-    for(int i=0 ; i<172 ; i++){
+    for(int i=0 ; pedidosLibros[i] ; i++){
         if(i == numPed - 1){
             imprimirSubtitulos(arch);
-            for(int j=0 ; pedidosAtendidos[j] ; j++){
-                if(j == numPed - 1){
-                    char **aux = pedidosLibros[i];
-                    bool *auxiliar = pedidosAtendidos[i];
-                    for(int k=0 ; aux[k] ; k++){
-                        arch<<setw(9)<<numPed<<setw(25);
-                        arch<<aux[k]<<setw(22);
-                        if(auxiliar[k] == true){
-                            arch<<"ATENDIDO"<<endl;
-                        }else{
-                            arch<<"NO ATENDIDO"<<endl;
-                        }
-                    } 
+            char **aux = pedidosLibros[i];
+            bool *auxiliar = pedidosAtendidos[i];
+            for(int k=0 ; aux[k] ; k++){
+                arch<<setw(9)<<numPed<<setw(25);
+                arch<<aux[k]<<setw(22);
+                if(auxiliar[k] == true){
+                    arch<<"ATENDIDO"<<endl;
+                }else{
+                    arch<<"NO ATENDIDO"<<endl;
                 }
-            }
+            } 
             
             imprimirLinea(arch, '-');
         }
