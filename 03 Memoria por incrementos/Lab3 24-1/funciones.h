@@ -37,11 +37,15 @@ void incrementarMemoriaLibrosPedidos(char **&, bool *&, int &, int &);
 void llenarPedidosAtendidos(bool *&, int , char ***, int **&, char *);
 int buscarLibro(char ***, char *);
 
+void ordenarPedidosClientes (int **&);
+void qSort(int **datos,int izq,int der);
+void cambiar(int *&datosI,int *&datosK);
+
 void reporteDeEntregaDePedidos(const char *,int **,char ***,bool **);
 void imprimirLibros(ofstream &arch,char ***,bool **,int );
 void imprimirEncabezado(ofstream &);
 void imprimirSubtitulos(ofstream &);
-void imprimirLinea(ofstream &,char car);
+void imprimirLinea(ofstream &,char );
 
 #endif /* FUNCIONES_H */
 

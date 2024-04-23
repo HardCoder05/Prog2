@@ -20,6 +20,7 @@ int main(int argc, char** argv) {
         pedidosLibros, pedidosAtendidos);
     pruebaDeLecturaDeLibros ("ReporteDeLibrosFinal.txt", libros, stock);
     
+    ordenarPedidosClientes (pedidosClientes);
     reporteDeEntregaDePedidos ("ReporteDeEntregaDePedisos.txt", 
         pedidosClientes, pedidosLibros, pedidosAtendidos);
     

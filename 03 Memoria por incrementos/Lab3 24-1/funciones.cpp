@@ -301,6 +301,38 @@ int buscarLibro(char ***libros, char *cod){
     return NO_ENCONTRADO;
 }
 
+void ordenarPedidosClientes (int **&pedidosClientes){
+    int numDat = 0;
+    while(pedidosClientes[numDat]) numDat++;
+    qSort(pedidosClientes, 0, numDat - 1);
+}
+
+void qSort(int **datos,int izq,int der){
+    int limite, pos;
+    if(izq>=der) return;
+    pos = (izq+der)/2;
+    cambiar(datos[izq],datos[pos]);
+    limite = izq;
+    for(int i=izq+1; i<=der; i++){
+        int *auxI = datos[i], *auxIzq = datos[izq];
+        if( auxI[1] > auxIzq[1] or (auxI[1] == auxIzq[1] and 
+            auxI[0] < auxIzq[0]) ){
+            limite++;
+            cambiar(datos[limite],datos[i]);
+        }
+    }
+    cambiar(datos[limite],datos[izq]);
+    qSort(datos,izq,limite-1);
+    qSort(datos,limite+1, der);
+}
+
+void cambiar(int *&datosI,int *&datosK){
+    int *auxCod;
+    auxCod = datosI;
+    datosI = datosK;
+    datosK = auxCod;
+}
+
 void reporteDeEntregaDePedidos (const char *nom,int **pedidosClientes, 
     char ***pedidosLibros,bool **pedidosAtendidos){
     ofstream arch;
