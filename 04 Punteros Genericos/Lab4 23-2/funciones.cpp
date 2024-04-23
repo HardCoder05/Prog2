@@ -111,13 +111,14 @@ void *leeCli(ifstream &arch){
     return cli;
 }
 
-void cargapedidos(void *&productos,void *&clientes){
+void cargapedidos(void *productos,void *&clientes){
     ifstream arch;
     AperturaDeUnArchivoDeTextosParaLeer(arch, "Pedidos2.csv");
     
     char *cod, c;
-    int dni, cant, posCli, numProd[200] = {0};
+    int dni, cant, posCli, numProd[200] = {};
     void **cli = (void **)clientes;
+    
     while(true){
         cod = leerCadena(arch, 8, ',');
         if(arch.eof()) break;
@@ -131,23 +132,24 @@ void cargapedidos(void *&productos,void *&clientes){
     void **cliente = (void **)clientes;
     for(int i=0 ; cliente[i] ; i++){
         void **aux = (void **)cliente[i];
-        asignarEspaciosExactos(aux[3], numProd[i]);
+        asignarEspaciosExactos(aux[2], numProd[i]);
     }
 }
 
-void asignarEspaciosExactos(void *pedidos,int cantDat){
-    void **ped, **pedi;
-    pedi = (void **)pedidos;
+void asignarEspaciosExactos(void *&pedidos,int cantDat){
+    void **aux, **ped = (void **)pedidos;
     
-//    if(cantDat != 0){
-//        ped = new void*[cantDat + 1];
-//        for(int i=0 ; i<cantDat ; i++) ped[i] = (void**)pedidos[i];
-//        //delete pedi;
-//        //pedidos = ped;
-//    }else{
-//        delete pedi;
-//        pedidos = nullptr;
-//    }
+    if(cantDat != 0){
+        aux = new void*[cantDat + 1]{};
+        for(int i=0 ; i<cantDat ; i++) aux[i] = ped[i];
+        delete ped;
+        ped = aux;
+    }else{
+        delete ped;
+        ped = nullptr;
+    }
+    
+    pedidos = ped;
 }
 
 int buscarCli(void *clientes,int dni){
@@ -162,38 +164,34 @@ int buscarCli(void *clientes,int dni){
     return NO_ENCONTRADO;
 }
 
-void llenarPedidos(void *productos,char *cod,int cant,void *cliente,
+void llenarPedidos(void *productos,char *cod,int cant,void *&cliente,
     int &numDat){
     double precio = obtenerPrecio(productos, cod);
     if(precio > 0){
-        double total = precio * cant;
-        
         int *cantidad = new int;
         *cantidad = cant;
         double *tot = new double;
-        *tot = total;
-        int *nDat = new int;
-        *nDat = numDat;
+        *tot = precio * cant;
 
         void **cli = (void **)cliente;
         void **pedidos = (void **)cli[2];
         double *credito = (double *)cli[3];
         
-        if(*credito >= total){
+        if(*credito >= *tot){
             void **pedido = new void*[3];
             pedido[0] = cod;
             pedido[1] = cantidad;
             pedido[2] = tot;
             
-            pedidos = new void*[50];
+            if(numDat == 0) pedidos = new void*[10]{};
+            pedidos[numDat] = pedido;           
             
-            pedidos[*nDat] = pedido;
-            numDat++;
-             
-            *credito -= total; 
+            *credito -= *tot; 
             
             cli[2] = pedidos;
             cli[3] = credito;
+            
+            numDat++;
         }
     }
 }
@@ -211,59 +209,36 @@ double obtenerPrecio(void *productos,char *cod){
 }
 
 void imprimereporte(void *clientes){
+    ofstream arch;
+    AperturaDeUnArchivoDeTextosParaEscribir(arch, "ReporteClientes.txt");
     
+    arch.precision(2);
+    arch<<fixed;
     
-    
-    
+    void **cl = (void **)clientes;
+    for(int i=0 ; cl[i] ; i++){
+        void **auxiliar = (void **)cl[i];
+        int *dni = (int *)auxiliar[0];
+        char *nomb = (char *)auxiliar[1];
+        double *cred = (double *)auxiliar[3];
+        arch<<endl<<left<<setw(15)<<*dni<<setw(50)<<nomb<<right<<setw(8)<<*cred<<endl;
+        if(auxiliar[2]){
+            imprimirPedidos(arch, auxiliar);
+        }else{
+            arch<<"El cliente no tuvo pedidos"<<endl;
+        }
+    }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+void imprimirPedidos(ofstream &arch,void **aux){
+    void **pedidos = (void **)aux[2];
+    arch<<"Pedidos: "<<endl;
+    for(int i=0 ; pedidos[i] ; i++){
+        void **pedido = (void **)pedidos[i];
+        char *codigo = (char *)pedido[0];
+        int *cantidad = (int *)pedido[1];
+        double *total = (double *)pedido[2];
+        arch<<codigo<<setw(7)<<*cantidad<<setw(15)<<*total<<endl;
+    }
+}
 

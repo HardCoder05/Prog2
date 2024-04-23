@@ -23,16 +23,14 @@ char *leerCadena(ifstream &,int ,char );
 void cargaclientes(void *&);
 void *leeCli(ifstream &);
 
-void cargapedidos(void *&,void *&);
-void asignarEspaciosExactos(void *pedidos,int cantDat);
+void cargapedidos(void *,void *&);
+void asignarEspaciosExactos(void *&pedidos,int cantDat);
 int buscarCli(void *,int );
-void llenarPedidos(void *,char *,int ,void *,int &);
+void llenarPedidos(void *,char *,int ,void *&,int &);
 double obtenerPrecio(void *,char *);
 
 void imprimereporte(void *clientes);
-
-
-
+void imprimirPedidos(ofstream &arch,void **aux);
 
 #endif /* FUNCIONES_H */
 
