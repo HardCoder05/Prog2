@@ -208,6 +208,71 @@ double obtenerPrecio(void *productos,char *cod){
     return NO_ENCONTRADO;
 }
 
+void ordenarClientes(void *clientes){
+    void **cl = (void**)clientes;
+    int numDat;
+    for(numDat = 0 ; cl[numDat] ; numDat++) ordenarPed(cl[numDat]);
+    qsort(cl, 0, numDat - 1);
+}
+
+void ordenarPed(void *cliente){
+    void **cl = (void**)cliente;
+    void **pedidos = (void**)cl[2];
+    if(pedidos == nullptr) return;
+    int nd = 0;
+    for( ; pedidos[nd] ; nd++);
+    qsort2(pedidos, 0, nd - 1);
+}
+
+void qsort(void **clientes,int izq,int der){
+    int limite;
+    if(izq >= der) return;
+    cambiar(clientes[izq], clientes[(izq+der)/2]);
+    limite = izq;
+    for(int i = izq+1 ; i <= der ; i++)
+    if(estanEnDesorden(clientes[i],clientes[izq]))
+        cambiar(clientes[++limite], clientes[i]);
+    cambiar(clientes[izq] , clientes[limite]);
+    qsort(clientes, izq , limite-1);
+    qsort(clientes, limite+1, der);
+}
+
+bool estanEnDesorden(void *cliI,void *cliIzq){
+    void **auxI = (void **)cliI, **auxIzq = (void **)cliIzq;
+    char *nomI = (char *)auxI[1], *nomIzq = (char *)auxIzq[1];
+    return strcmp(nomI, nomIzq) < 0; 
+}
+
+void qsort2(void **pedidos,int izq,int der){
+    int limite;
+    if(izq >= der) return;
+    cambiar(pedidos[izq], pedidos[(izq+der)/2]);
+    limite = izq;
+    for(int i = izq+1 ; i <= der ; i++)
+    if(estanEnDesorden2(pedidos[i],pedidos[izq]))
+        cambiar(pedidos[++limite] , pedidos[i]);
+    cambiar(pedidos[izq] , pedidos[limite]);
+    qsort2(pedidos, izq , limite-1);
+    qsort2(pedidos, limite+1, der);
+}
+
+bool estanEnDesorden2(void *pedI,void *pedIzq){
+    void **auxI = (void **)pedI;
+    void **auxIzq = (void **)pedIzq;
+    
+    double *totalI = (double *)auxI[2];
+    double *totalIzq = (double *)auxIzq[2];
+    
+    return *totalI < *totalIzq;
+}
+
+void cambiar(void *&cl1,void *&cl2){
+    void *aux;
+    aux = cl1;
+    cl1 = cl2;
+    cl2 = aux;
+}
+
 void imprimereporte(void *clientes){
     ofstream arch;
     AperturaDeUnArchivoDeTextosParaEscribir(arch, "ReporteClientes.txt");

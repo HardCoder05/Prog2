@@ -29,6 +29,14 @@ int buscarCli(void *,int );
 void llenarPedidos(void *,char *,int ,void *&,int &);
 double obtenerPrecio(void *,char *);
 
+void ordenarClientes(void *clientes);
+void ordenarPed(void *cliente);
+void qsort(void **clientes,int izq,int der);
+bool estanEnDesorden(void *cliI,void *cliIzq);
+void qsort2(void **pedidos,int izq,int der);
+bool estanEnDesorden2(void *pedI,void *pedIzq);
+void cambiar(void *&cl1,void *&cl2);
+
 void imprimereporte(void *clientes);
 void imprimirPedidos(ofstream &arch,void **aux);
 

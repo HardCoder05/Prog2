@@ -14,6 +14,7 @@ int main(int argc, char** argv) {
     cargaproductos(productos);
     cargaclientes(clientes);
     cargapedidos(productos,clientes);
+    ordenarClientes(clientes);
     imprimereporte(clientes);
     
     return 0;
