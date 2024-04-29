@@ -33,12 +33,16 @@ char *leerCadena(ifstream &arch,int cantCar,char del){
     return ptr;
 }
 
+double calcularegistro(void *dato){
+    void **registro = (void **)dato;
+    double *peso = (double *)registro[2];
+    return *peso;
+}
 
-
-double cmpregistro(const void *a,const void *b){
+int cmpregistro(const void *a,const void *b){
     void **regI = (void**)a, **regK = (void**)b; //apuntamos al registro
-    double *pesoI = (double *)regI[2], *pesoK = (double *)regK[2];
-    return *pesoI - *pesoK;
+    double *pesoI = (double *)regI[1], *pesoK = (double *)regK[1];
+    return *pesoK - *pesoI;
 }
 
 void imprimeregistro(void *a,ofstream &arch){

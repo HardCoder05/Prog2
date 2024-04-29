@@ -15,8 +15,8 @@ using namespace std;
 
 void *leeregistro(ifstream &arch);
 char *leerCadena(ifstream &arch,int cantCar,char del);
-
-double cmpregistro(const void *a,const void *b);
+double calcularegistro(void *dato);
+int cmpregistro(const void *a,const void *b);
 void imprimeregistro(void *a,ofstream &arch);
 
 #endif /* PILACONREGISTROS_H */
