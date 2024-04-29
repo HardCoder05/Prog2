@@ -8,17 +8,21 @@
 
 #ifndef FLOTAGENERICA_H
 #define FLOTAGENERICA_H
+#include<iostream>
 #include<fstream>
 #include<iomanip>
 using namespace std;
 
 void cargacamiones(void *&flota,int numcamiones,int pesomaximo,
-    void* (*lee)(ifstream &),int (*calcular)(int ,int),const char *nom);
+    void* (*lee)(ifstream &),double (*calcular)(void *),const char *nom);
+void inicializarPila(void *&pila);
+void push(void *pila, void *dato);
+double *obtenerPesoDelCamionPtr(void *pila);
+double obtenerPesoDelCamion(void *pila);
+void actualizarPesoDelCamion(void *pila, double peso_pedido);
 
 void muestracamiones(void *flota,int numcamiones,
     void (*imprime)(void *,ofstream &),const char *nom);
-
-
 
 #endif /* FLOTAGENERICA_H */
 
