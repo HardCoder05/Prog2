@@ -13,7 +13,7 @@
 using namespace std;
 
 void *leenumero(ifstream &arch);
-int calculanumero(int pesoMax,int dato);
+double calculanumero(void *dato);
 int cmpnumero(const void *a,const void *b);
 void imprimenumero(void *a,ofstream &arch);
 

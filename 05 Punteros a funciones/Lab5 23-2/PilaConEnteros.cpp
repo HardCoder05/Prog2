@@ -2,25 +2,26 @@
 #include "PilaConEnteros.h"
 
 void *leenumero(ifstream &arch){
-    int d, *dato;
+    double d, *dato;
     arch >> d;
     if(arch.eof())return nullptr;
-    dato = new int;
+    dato = new double;
     *dato = d;
-    return dato;
+    return (void *)dato;
 }
 
-int calculanumero(int pesoMax,int dato){
-    //return pesoMax - dato;
+double calculanumero(void *dato){
+    double *peso = (double *)dato;
+    return *peso;
 }
 
 int cmpnumero(const void *a,const void *b){
     int *ai = (int *)a, *bi = (int*)b;
-    return *ai - *bi;
+    return *bi - *ai;
 }
  
 void imprimenumero(void *a,ofstream &arch){
-    int *ai = (int*)a;
-    arch<<setw(6)<<*ai;
+    double peso = calculanumero(a);
+    arch<<peso<<endl;
 }
 
