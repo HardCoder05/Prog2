@@ -1,5 +1,6 @@
 
 #include "PilaConRegistros.h"
+#include "FlotaGenerica.h"
 
 void *leeregistro(ifstream &arch){
     char *cod, c;
@@ -40,9 +41,15 @@ double calcularegistro(void *dato){
 }
 
 int cmpregistro(const void *a,const void *b){
-    void **regI = (void**)a, **regK = (void**)b; //apuntamos al registro
-    double *pesoI = (double *)regI[1], *pesoK = (double *)regK[1];
-    return *pesoK - *pesoI;
+    void **camion_a = (void **)a;
+    void *camA = (void *)camion_a[0];
+    void **camion_b = (void **)b;
+    void *camB = (void *)camion_b[0];
+    
+    double peso_a = obtenerPesoDelCamion(camA);
+    double peso_b = obtenerPesoDelCamion(camB);
+    
+    return peso_b - peso_a;
 }
 
 void imprimeregistro(void *a,ofstream &arch){
