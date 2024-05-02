@@ -20,7 +20,8 @@ int main(int argc, char** argv) {
     crearListaHeroes(arregloHeroes, listaHeroes, leerHeroe);
     imprimirListaHeroes("ListaHeroesRepetidos.txt", listaHeroes, imprimirRegistro);
     
-    
+    eliminarListaHeroes(listaHeroes, eliminarRegistro);
+    imprimirListaHeroes("ListaHeroesFinal.txt", listaHeroes, imprimirRegistro);
     
     return 0;
 }
