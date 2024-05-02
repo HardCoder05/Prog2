@@ -14,17 +14,18 @@
 using namespace std;
 #include<cstring>
 
-void crearListaHeroes(void *arregloHeroes,void *&listaHeroes,void * 
-    (*leerHeroe)(void *));
-void construirLista(void *&lista_heroes);
-void insertarRegistro(void *dato, void*&lista);
-bool esListaVacia(void *lista);
-void *leerHeroe(void *heroe);
-void imprimirListaHeroes(const char *nom,void *listaHeroes,
+void crearListaHeroes(void *,void *&,void * (*leerHeroe)(void *));
+void construirLista(void *&);
+void insertarRegistro(void *, void*&);
+bool esListaVacia(void *);
+void *leerHeroe(void *);
+void imprimirListaHeroes(const char *,void *,
     void (*imprimirRegistro)(void *,ofstream &));
-void imprimirRegistro(void *registro,ofstream &arch);
+void imprimirRegistro(void *,ofstream &);
 
-
+void eliminarListaHeroes(void *&, void (*eliminarRegistro)(void **&,void **&));
+bool sonRegistrosIguales(void *, void *);
+void eliminarRegistro(void **&,void **&);
 
 #endif /* LISTASGEN_H */
 

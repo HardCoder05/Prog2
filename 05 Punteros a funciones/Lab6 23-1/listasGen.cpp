@@ -97,3 +97,50 @@ void imprimirRegistro(void *registro,ofstream &arch){
         right<<setw(10)<<*puntaje<<endl;
 }
 
+void eliminarListaHeroes(void *&listaHeroes, void (*eliminarRegistro)
+    (void **&,void **&)) {
+    void **registros = (void **)listaHeroes;
+    
+    void **actual = (void **)registros[0];
+    void **siguiente = nullptr;
+    
+    while (actual != nullptr) {
+        siguiente = (void **)actual[1];
+        // Comparamos el nodo actual con los siguientes para encontrar duplicados
+        void **siguienteComparacion = (void **)siguiente;
+        void **anterior = actual; // Nodo anterior al actual
+        while (siguienteComparacion != nullptr) {
+            if (sonRegistrosIguales(actual[0], siguienteComparacion[0])) {
+                void **temp = (void **)siguienteComparacion[1]; // Siguiente nodo del duplicado
+                eliminarRegistro(siguienteComparacion, temp); // Eliminar el duplicado
+                anterior[1] = siguienteComparacion; // Enlazar el nodo anterior con el siguiente válido
+            } else {
+                // No es duplicado entonces avanzamos
+                anterior = siguienteComparacion;
+                siguienteComparacion = (void **)siguienteComparacion[1];
+            }
+        }
+
+        // Avanzar al siguiente nodo
+        actual = siguiente;
+    }
+}
+
+bool sonRegistrosIguales(void *registro1, void *registro2){
+    void **reg1 = (void **)registro1;
+    void **reg2 = (void **)registro2;
+        
+    char *nom1 = (char *)reg1[1];
+    char *nom2 = (char *)reg2[1];
+    if (strcmp(nom1, nom2) != 0) {
+        return false;
+    }
+    
+    return true;
+}
+
+void eliminarRegistro(void **&siguienteComparacion,void **&temp){
+    delete siguienteComparacion; // Liberar la memoria del duplicado
+    siguienteComparacion = temp; // Apuntar al siguiente nodo después del duplicado
+}
+
