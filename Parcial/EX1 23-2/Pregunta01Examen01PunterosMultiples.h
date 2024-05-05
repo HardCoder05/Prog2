@@ -25,6 +25,5 @@ void incrementarEspacios(int **&fechaClienteCantidad,char **&codigoDelProducto,
 void pruebaDeCargaDePedidos(int **fechaClienteCantidad,
     char **codigoDelProducto,const char*nom);
 
-
 #endif /* PREGUNTA01EXAMEN01PUNTEROSMULTIPLES_H */
 
