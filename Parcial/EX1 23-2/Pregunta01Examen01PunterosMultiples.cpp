@@ -80,3 +80,44 @@ void pruebaDeCargaDePedidos(int **fechaClienteCantidad,
     }
 }
 
+void ordenarPedidos(int **&fechaClienteCantidad,char **&codigoDelProducto){
+    int numDat = 0;
+    while(fechaClienteCantidad[numDat]) numDat++;
+    qSort(fechaClienteCantidad, codigoDelProducto, 0, numDat - 1);
+}
+
+void qSort(int **datos,char **codigos,int izq,int der){
+    int limite, pos;
+    if(izq>=der) return;
+    pos = (izq+der)/2;
+    cambiar(datos[izq],datos[pos]);
+    cambiar(codigos[izq],codigos[pos]);
+    limite = izq;
+    for(int i=izq+1; i<=der; i++){
+        int *auxI = datos[i], *auxIzq = datos[izq];
+        if( auxI[0] < auxIzq[0]){
+            limite++;
+            cambiar(datos[limite],datos[i]);
+            cambiar(codigos[limite],codigos[i]);
+        }
+    }
+    cambiar(datos[limite],datos[izq]);
+    cambiar(codigos[limite],codigos[izq]);
+    qSort(datos, codigos, izq, limite-1);
+    qSort(datos, codigos, limite+1, der);
+}
+
+void cambiar(int *&datosI,int *&datosK){
+    int *auxCod;
+    auxCod = datosI;
+    datosI = datosK;
+    datosK = auxCod;
+}
+
+void cambiar(char *&datosI,char *&datosK){
+    char *auxCod;
+    auxCod = datosI;
+    datosI = datosK;
+    datosK = auxCod;
+}
+

@@ -15,10 +15,9 @@ int main(int argc, char** argv) {
     int **fechaClienteCantidad;
     
     cargarPedidos(fechaClienteCantidad,codigoDelProducto,"Pedidos.csv");
+    ordenarPedidos(fechaClienteCantidad, codigoDelProducto);
     pruebaDeCargaDePedidos(fechaClienteCantidad,codigoDelProducto,
         "PruebaPedidos.txt");
-    
-    
     
     
     

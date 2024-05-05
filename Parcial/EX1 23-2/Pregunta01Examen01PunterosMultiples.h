@@ -25,5 +25,10 @@ void incrementarEspacios(int **&fechaClienteCantidad,char **&codigoDelProducto,
 void pruebaDeCargaDePedidos(int **fechaClienteCantidad,
     char **codigoDelProducto,const char*nom);
 
+void ordenarPedidos(int **&fechaClienteCantidad,char **&codigoDelProducto);
+void qSort(int **datos,char **codigos,int izq,int der);
+void cambiar(int *&datosI,int *&datosK);
+void cambiar(char *&datosI,char *&datosK);
+
 #endif /* PREGUNTA01EXAMEN01PUNTEROSMULTIPLES_H */
 
