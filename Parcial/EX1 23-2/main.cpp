@@ -9,7 +9,7 @@
 #include "Pregunta01Examen01PunterosMultiples.h"
 #include "Pregunta02Examen01PunterosGenericos.h"
 #include "ColaConEnteros.h"
-
+#include "ColaConProductos.h"
 #include "ColaGenerica.h"
 
 int main(int argc, char** argv) {
@@ -31,6 +31,8 @@ int main(int argc, char** argv) {
     cargaEnteros(cola, leenumero,"numeros.txt");
     mostrarEnteros(cola, imprimenumero,"reporte.txt");
     
+    procesarPedidos(fechaClienteCantidad, codigoDelProducto, productos);
+    reporteDePedidos(productos,"ReporteFinal.txt");
     
     return 0;
 }
