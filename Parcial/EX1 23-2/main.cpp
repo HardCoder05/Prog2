@@ -7,7 +7,7 @@
  */
 
 #include "Pregunta01Examen01PunterosMultiples.h"
-
+#include "Pregunta02Examen01PunterosGenericos.h"
 
 
 int main(int argc, char** argv) {
@@ -19,6 +19,10 @@ int main(int argc, char** argv) {
     pruebaDeCargaDePedidos(fechaClienteCantidad,codigoDelProducto,
         "PruebaPedidos.txt");
     
+    void *productos;
+    
+    cargarProductos(productos, "Productos.csv");
+    pruebaDeCargaDeProductos(productos, "PruebaProductos.txt");
     
     
     
