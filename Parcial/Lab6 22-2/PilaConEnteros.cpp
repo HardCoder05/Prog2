@@ -21,9 +21,6 @@ int cmpnumero(const void *a,const void *b){
 }
 
 void imprimenumero(ofstream &arch,void *dato){
-    // void **aux1 = (void **)dato;  
-    // int *num = (int *)*aux1;
-
     int *num = (int *)dato;
     arch<<*num<<endl;
 }
