@@ -92,6 +92,19 @@ void apilar(void *pila, void *elemento){
     (*cant)++; // Incrementar el contador de elementos
 }
 
+void* desapilar(void *pila){
+    void **auxPila = (void **)pila; // Convertir la pila a un arreglo de punteros
+    void **tope = (void **)auxPila[0]; // Obtener el tope de la pila
+    void *elemento = tope[1]; // Obtener el elemento del tope de la pila
+    void **sig = (void **)tope[0]; // Obtener el siguiente nodo
+    delete tope; // Eliminar el nodo
+    auxPila[0] = sig; // Actualizar el tope de la pila
+
+    int *cant = (int *)auxPila[1]; // Obtener el contador de elementos
+    (*cant)--; // Decrementar el contador de elementos
+    return elemento; // Retornar el elemento
+}
+
 void imprimepila(void *pila,void (*imprime)(ofstream &,void *),const char *nom){
     ofstream arch(nom, ios::out);
 
@@ -100,6 +113,9 @@ void imprimepila(void *pila,void (*imprime)(ofstream &,void *),const char *nom){
     int *cant = (int*)auxPila[1]; // Obtener el contador de elementos
     //cout<<*cant<<endl; // Imprimir la cantidad de elementos
     
+    arch<<"Codigo"<<setw(28)<<"Descripcion del Producto"<<setw(27)<<"Peso Caja"<<endl;
+    for(int i = 0; i < 62; i++) arch<<"=";
+    arch<<endl;
     for(int i = 0; i < *cant; i++){ // Iterar sobre la pila
         void *dato = tope[1];
         imprime(arch, dato);
@@ -112,5 +128,34 @@ void imprimepila(void *pila,void (*imprime)(ofstream &,void *),const char *nom){
     //     imprime(arch, dato);
     //     tope = (void **)tope[0];
     // }
+}
+
+
+//PARTE PARA MOVER ELEMENTOS DE UNA PILA A OTRA
+
+void muevepila(void *&pilaini,void *&pilafin){
+    void *pilaAux;
+
+    pilaAux = crearPila();
+    pilafin = crearPila();
+
+    //mover la pila usando Hanoi
+    //para necesito el numero de elementos de la pila
+    void **ptr = (void **)pilaini;
+    int *cant = (int *)ptr[1];
+    int n = *cant;
+    hanoi(n, pilaini, pilaAux, pilafin);
+}
+ 
+void hanoi(int n,void *&pilaini,void *&pilaAux,void *&pilafin){
+    if(n == 1){
+        void *dato = desapilar(pilaini);
+        apilar(pilafin, dato);
+    }else{
+        hanoi(n-1, pilaini, pilafin, pilaAux);
+        void *dato = desapilar(pilaini);
+        apilar(pilafin, dato);
+        hanoi(n-1, pilaAux, pilaini, pilafin);
+    }
 }
 
