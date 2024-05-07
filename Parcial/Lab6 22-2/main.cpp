@@ -9,12 +9,12 @@ int main(){
     cargaarreglo(arreglo, cmpnumero, leenumero, "numeros.txt");
     cargapila(pilaini,arreglo);
     // muevepila(pilaini,pilafin);
-    imprimepila(pilafin,imprimenumero,"repnumeros.txt");
+    imprimepila(pilaini,imprimenumero,"repnumeros.txt");
     
-    //cargaarreglo(arreglo, cmpregistro, leeregistro, "Medicinas.csv");
-    //cargapila(pilaini,arreglo);
+    cargaarreglo(arreglo, cmpregistro, leeregistro, "Medicinas.csv");
+    cargapila(pilaini,arreglo);
     //muevepila(pilaini,pilafin);
-    //imprimepila(pilafin,imprimeregistro,"repmedicinas.txt");
+    imprimepila(pilaini,imprimeregistro,"repmedicinas.txt");
 
     return 0;
 }
