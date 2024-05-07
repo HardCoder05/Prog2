@@ -9,4 +9,5 @@ using namespace std;
 void *leeregistro(ifstream &arch);
 char *leerCadena(ifstream &arch, int tam, char delim);
 int cmpregistro(const void *a, const void *b);
+void imprimeregistro(ofstream &arch, void *registro);
 

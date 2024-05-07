@@ -42,3 +42,11 @@ int cmpregistro(const void *a, const void *b){
     return 0;
 }
 
+void imprimeregistro(ofstream &arch, void *registro){
+    void **reg = (void **)registro;
+    int *cod = (int *)reg[0];
+    char *nom = (char *)reg[1];
+    double *peso = (double *)reg[2];
+    arch<<left<<setw(10)<<*cod<<setw(40)<<nom<<right<<setw(10)<<*peso<<endl;
+}
+
