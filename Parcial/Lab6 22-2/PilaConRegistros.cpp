@@ -37,8 +37,8 @@ int cmpregistro(const void *a, const void *b){
     void **medI = (void **)ai[0], **medF = (void **)bi[0];
     double *pesoi = (double *)medI[2], *pesof = (double *)medF[2];
 
-    if (*pesoi < *pesof) return -1;
-    if (*pesoi > *pesof) return 1;
+    if (*pesoi < *pesof) return 1;
+    if (*pesoi > *pesof) return -1;
     return 0;
 }
 

@@ -17,7 +17,7 @@ int cmpnumero(const void *a,const void *b){
     num1 = (int *)*aux1;
     num2 = (int *)*aux2;
     
-    return *num1 - *num2; 
+    return *num2 - *num1; 
 }
 
 void imprimenumero(ofstream &arch,void *dato){
