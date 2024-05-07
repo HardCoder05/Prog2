@@ -55,50 +55,62 @@ void incrementarEspacios(void **&ptr, int &cap, int &cantDat){
 
 //PARTE PARA IMPLEMENTACION DE UNA PILA
 
-// void cargapila(void *&pilaini,void *arreglo){
-//     void **ptr = (void **)arreglo;
+void cargapila(void *&pila,void *arreglo){
+    void **ptr = (void **)arreglo;
     
-//     //constuir la pila
-//     pilaini = crearPila();
+    //constuir la pila
+    pila = crearPila();
 
-//     for(int i = 0; ptr[i]; i++){
-//         void *dato = ptr[i];
-//         apilar(pilaini, dato);
-//     }
-// }
+    for(int i = 0; ptr[i]; i++){
+        void *dato = ptr[i];
+        apilar(pila, dato);
+    }
+}
 
-// void *crearPila(){
-//   void **pila = new void *[2];
-//   pila[0] = nullptr;
-//   pila[1] = 0;
+void *crearPila(){
+    void **pila = new void *[2];
+    pila[0] = nullptr; // Tope de la pila
+    int *cant = new int(0);
+    pila[1] = cant; // Contador de elementos
+    return pila;
+}
 
-//   return pila;
-// }
+void *crearNodoPila(void *elemento, void *sig){
+    void **nodoPila = new void *[2];
+    nodoPila[1] = elemento; // Elemento
+    nodoPila[0] = sig; // Siguiente
+    return nodoPila;
+}
 
-// void apilar(void *pila, void *dato){
-//     void **ptr = (void **)pila;
+void apilar(void *pila, void *elemento){
+    void **auxPila = (void **)pila; // Convertir la pila a un arreglo de punteros
+    void **tope = (void **)auxPila[0]; // Obtener el tope de la pila
+    void **nuevoNodo = (void **)crearNodoPila(elemento, tope); // Crear un nuevo nodo con el elemento y el tope de la pila
+    auxPila[0] = nuevoNodo; // Actualizar el tope de la pila
+
+    int *cant = (int *)auxPila[1]; // Obtener el contador de elementos
+    (*cant)++; // Incrementar el contador de elementos
+}
+
+void imprimepila(void *pila,void (*imprime)(ofstream &,void *),const char *nom){
+    ofstream arch(nom, ios::out);
+
+    void **auxPila = (void **)pila; // Convertir la pila a un arreglo de punteros
+    void **tope = (void **)auxPila[0]; // Obtener el tope de la pila
+    int *cant = (int*)auxPila[1]; // Obtener el contador de elementos
+    //cout<<*cant<<endl; // Imprimir la cantidad de elementos
     
-//     //nuevo nodo
-//     void **nuevoNodo = new void *[2];
-//     nuevoNodo[1] = dato;
-//     nuevoNodo[0] = ptr[0];
+    for(int i = 0; i < *cant; i++){ // Iterar sobre la pila
+        void *dato = tope[1];
+        imprime(arch, dato);
+        tope = (void **)tope[0]; // Obtener el siguiente nodo
+    }
 
-//     ptr[0] = nuevoNodo;
-    
-//     int *longitud = (int *)ptr[1];
-//     (*longitud)++; void **auxPila = (void **)pila;
-// }
-
-// void imprimepila(void *pilafin,void (*imprime)(ofstream &,void *),const char *nom){
-//     ofstream arch(nom, ios::out);
-
-//     void **ptr = (void **)pilafin;
-//     void **nodo = (void **)ptr[0];
-    
-//     // while(nodo){
-//     //     cout<<"holi"<<endl;
-//     //     imprime(arch, nodo[1]);
-//     //     nodo = (void **)nodo[0];
-//     // }
-// }
+    // while(tope){
+    //     cout << "Imprimiendo" << endl;
+    //     void *dato = tope[1];
+    //     imprime(arch, dato);
+    //     tope = (void **)tope[0];
+    // }
+}
 
