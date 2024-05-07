@@ -1,50 +1,6 @@
 
 #include "PilaConRegistros.h"
 
-void cargaarregloo(void *arreglo,int (*cmp)(const void*,const void*), void* (*lee)(ifstream &),const char *nom){
-    ifstream arch(nom, ios::in);
-
-    void *dato, **ptr = nullptr;
-    int cantDat = 0, cap = 0;
-    while(true){
-        dato = lee(arch);
-        if(dato == nullptr) break;
-        if(cantDat == cap) incrementarEspacios(ptr, cap, cantDat);
-        ptr[cantDat - 1] = dato; // Incrementar el contador antes de asignar el dato
-        cantDat++;
-    }
-
-    arreglo = ptr;
-
-    qsort(arreglo, cantDat-1, sizeof(void *), cmp);
-
-    void **aux = (void **)arreglo;  
-    for(int i = 0; aux[i]; i++){
-        void **registro = (void **)aux[i];
-        int *cod = (int *)registro[0];
-        char *nom = (char *)registro[1];
-        double *peso = (double *)registro[2];
-        cout<<setw(5)<<*cod<<setw(60)<<nom<<setw(10)<<*peso<<endl;
-    }
-
-}
-
-void incrementarEspacios(void **&ptr, int &cap, int &cantDat){
-    cap += INCREMENTO;
-
-    if(ptr == nullptr){
-        ptr = new void*[cap]{};
-        cantDat = 1;
-    }else{
-        void **aux = new void *[cap]{};
-        for(int i = 0; i < cantDat; i++){
-            aux[i] = ptr[i];
-        }
-        delete ptr;
-        ptr = aux;
-    }
-}
-
 void *leeregistro(ifstream &arch){
     int cod;
     char *nom, c;
@@ -85,15 +41,4 @@ int cmpregistro(const void *a, const void *b){
     if (*pesoi > *pesof) return 1;
     return 0;
 }
-
-
-
-
-
-
-
-
-
-
-
 
