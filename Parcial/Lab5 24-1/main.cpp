@@ -1,6 +1,7 @@
 
 #include "BibliotecaGenerica.h"
 #include "FuncionesEnteros.h"
+#include "FuncionesRegistro.h"
 
 int main(){
     void *ped1, *ped2, *pedFinal;
@@ -11,6 +12,11 @@ int main(){
     imprimelista(ped2, imprimenum, "RepNum2.txt");
     combinelista(ped1, ped2, pedFinal, cmpNum);
     imprimelista(pedFinal, imprimenum, "RepNumFinal.txt");
+
+    crealista(ped1, leeregistro, "Pedidos31.csv");
+    imprimelista(ped1, imprimeregistro, "RepPedidos31.txt");
+    crealista(ped2, leeregistro, "Pedidos32.csv");
+    imprimelista(ped2, imprimeregistro, "RepPedidos32.txt");
 
     return 0;
 }
