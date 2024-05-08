@@ -51,22 +51,3 @@ int cmpReg(const void *dato1, const void *dato2){
     return *num1 - *num2;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

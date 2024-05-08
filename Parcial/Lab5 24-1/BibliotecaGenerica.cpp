@@ -69,14 +69,13 @@ void combinelista(void *&ped1,void *&ped2,void *&pedFinal,int (*cmp)(const void 
     //Primero agregamos los elementos de la primera lista
     while(!eslistavacia(ped1)){
         void *dato = quitalista(ped1);
-        insertarlista(pedFinal, dato);
+        insertaordenado(pedFinal, dato, cmp);   
     }
 
     //Luego agregamos los elementos de la segunda lista
-    //Para ello usaremos una nueva funcion para insertar los elementos en orden
     while(!eslistavacia(ped2)){
         void *dato = quitalista(ped2);
-        insertaordenado(pedFinal, dato, cmp);
+        insertaordenado(pedFinal, dato, cmp);   
     }
 }
 
@@ -94,18 +93,32 @@ void* quitalista(void *&ped){
 }
 
 void insertaordenado(void *&ped, void *dato, int (*cmp)(const void *,const void *)){
-    void **ptr = (void **)ped, **ant = nullptr, **nuevo;
+    void **ptr = (void **)ped;
+    void **nuevo = new void*[2];
+    nuevo[0] = dato; //dato
+    nuevo[1] = nullptr; //siguiente
+    
+    if(eslistavacia(ped)){ //lista vacia
+        ptr[0] = nuevo; //cabeza
+        ptr[1] = nuevo; //cola
+    }else{
+        void **nodo = (void **)ptr[0]; //obtenemos la cabeza
+        void **ant = nullptr;
+        while(nodo != nullptr && cmp(nodo[0], dato) < 0){
+            ant = nodo;
+            nodo = (void **)nodo[1];
+        }
 
-    nuevo = new void*[2];
-    nuevo[0] = dato;
-    void **nodo = (void **)ptr[0];
-    while(nodo){
-        if(cmp(nodo[0], dato) > 0) break;
-        ant = nodo;
-        nodo = (void **)nodo[1];
+        if(ant == nullptr){ //insertar al inicio
+            nuevo[1] = ptr[0];
+            ptr[0] = nuevo;
+        }else if(nodo == nullptr){ //insertar al final
+            ant[1] = nuevo;
+            ptr[1] = nuevo;
+        }else{ //insertar en medio
+            ant[1] = nuevo;
+            nuevo[1] = nodo;
+        }
     }
-    nuevo[1] = nodo;
-    if(ant == nullptr) nodo = nuevo;
-    else ant[1] = nuevo;
 }
 
