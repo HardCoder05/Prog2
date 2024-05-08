@@ -39,7 +39,7 @@ void imprimeregistro(ofstream &arch, void *dato){
     int *dni = (int *)registro[1];
     char *cod = (char *)registro[2];
 
-    arch << *num << setw(10) << *dni << setw(15) << cod << endl;
+    arch << setw(3) << *num << setw(10) << *dni << setw(15) << cod << endl;
 }
 
 int cmpReg(const void *dato1, const void *dato2){
