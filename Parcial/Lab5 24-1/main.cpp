@@ -17,6 +17,8 @@ int main(){
     imprimelista(ped1, imprimeregistro, "RepPedidos31.txt");
     crealista(ped2, leeregistro, "Pedidos32.csv");
     imprimelista(ped2, imprimeregistro, "RepPedidos32.txt");
+    combinelista(ped1, ped2, pedFinal, cmpReg);
+    imprimelista(pedFinal, imprimeregistro, "RepPedidosFinal.txt");
 
     return 0;
 }
