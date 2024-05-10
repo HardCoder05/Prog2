@@ -1,5 +1,3 @@
-Codigo    Descripcion del Producto                  Peso Caja
-==============================================================
 1
 3
 4
