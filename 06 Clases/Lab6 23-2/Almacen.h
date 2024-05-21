@@ -8,7 +8,11 @@
 
 #ifndef ALMACEN_H
 #define ALMACEN_H
-
+#include<iostream>
+#include<fstream>
+#include<iomanip>
+using namespace std;
+#include<cstring>
 #include "Cliente.h"
 #include "Producto.h"
 
@@ -17,10 +21,14 @@ public:
     Almacen();
     Almacen(const Almacen& orig);
     virtual ~Almacen();
+    void cargar_clientes(void);
+    void cargar_productos(void);
+    void cargar_pedidos(void);
+    void mostrar_datos(void);
 private:
-    Cliente arreglo_clientes[50]{};
+    Cliente arreglo_clientes[200]{};
     int cantidad_clientes;
-    Producto arreglo_productos[50]{};
+    Producto arreglo_productos[200]{};
     int cantidad_productos;
 };
 
