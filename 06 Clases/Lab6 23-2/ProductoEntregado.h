@@ -8,12 +8,17 @@
 
 #ifndef PRODUCTOENTREGADO_H
 #define PRODUCTOENTREGADO_H
+#include<cstring>
 
 class ProductoEntregado {
 public:
     ProductoEntregado();
     ProductoEntregado(const ProductoEntregado& orig);
     virtual ~ProductoEntregado();
+    void SetPrecio(double precio);
+    double GetPrecio() const;
+    void SetCodigo(char* codigo);
+    char* GetCodigo() const;
 private:
     char *codigo;
     double precio;
