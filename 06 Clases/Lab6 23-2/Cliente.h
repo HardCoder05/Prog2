@@ -13,6 +13,7 @@
 using namespace std;
 #include <cstring>
 #include "ProductoEntregado.h"
+#include "Pedido.h"
 
 class Cliente {
 public:
@@ -25,6 +26,12 @@ public:
     int GetTelefono() const;
     char* GetNombre() const;
     int GetDni() const;
+    void SetMonto_total(double monto_total);
+    double GetMonto_total() const;
+    void SetCantidad_productos_entregados(int cantidad_productos_entregados);
+    int GetCantidad_productos_entregados() const;
+    void operator +=(const Pedido& ped);
+    void imprimirProductos(ofstream &arch);
 private:
     int dni;
     char *nombre;
@@ -35,6 +42,7 @@ private:
 };
 
 bool operator >>(ifstream &arch, Cliente &cli);
+void operator <<(ofstream &arch, Cliente &cli);
 
 #endif /* CLIENTE_H */
 
