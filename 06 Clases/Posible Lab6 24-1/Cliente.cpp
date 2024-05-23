@@ -104,6 +104,14 @@ void Cliente::operator ++(void){
     }
 }
 
+void Cliente::operator ++(int){
+    for(int i=0 ; i<cantDeLibros ; i++){
+        if(librosSolicitados[i].IsAtendido() == true){
+            pagoTotal += librosSolicitados[i].GetPrecio();
+        }
+    }
+}
+
 void operator <<(ofstream &arch,Cliente &cli){
     char nombre[60];
     cli.GetNombre(nombre);

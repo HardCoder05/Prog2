@@ -29,6 +29,7 @@ public:
     int GetDni() const;
     bool operator <<(LibroSolicitado& libSoli);
     void operator ++(void);
+    void operator ++(int);
     void imprimirLibros(ofstream &arch);
 private:
     int dni;
