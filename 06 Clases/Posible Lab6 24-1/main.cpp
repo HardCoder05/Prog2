@@ -87,8 +87,12 @@ int main(int argc, char** argv) {
 //            setw(10)<<lib[j].GetPrecio()<<setw(10)<<lib[j].GetStock()<<endl;
 //    }
     
+//    for(int j=0 ; j<cantCli ; j++){
+//        ++cli[j];
+//    }
+    
     for(int j=0 ; j<cantCli ; j++){
-        ++cli[j];
+        cli[j]++;
     }
     
     ofstream archRepLib("ReporteLibros.txt", ios::out);
@@ -100,14 +104,6 @@ int main(int argc, char** argv) {
     for(int i=0 ; i<cantCli ; i++){
         archRepCli<<cli[i];
     }
-    
-//    for(int j=0 ; j<cantCli ; j++){
-//        char nombre[60];
-//        int dni = cli[j].GetDni();
-//        cli[j].GetNombre(nombre);
-//        cout<<left<<setw(10)<<dni<<setw(40)<<nombre<<right<<setw(10)<<
-//            cli[j].GetCantDeLibros()<<setw(10)<<cli[j].GetPagoTotal()<<endl;  
-//    }
     
     return 0;
 }
