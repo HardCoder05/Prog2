@@ -63,8 +63,9 @@ void Producto::SetDescripcion(char* desc) {
     strcpy(descripcion, desc);
 }
 
-char* Producto::GetDescripcion() const {
-    return descripcion;
+void Producto::GetDescripcion(char *desc) const {
+    if(descripcion == nullptr) desc[0] = 0;
+    else strcpy(desc, descripcion);
 }
 
 void Producto::SetCodigo(char* cod) {
@@ -73,8 +74,9 @@ void Producto::SetCodigo(char* cod) {
     strcpy(codigo, cod);
 }
 
-char* Producto::GetCodigo() const {
-    return codigo;
+void Producto::GetCodigo(char *cod) const {
+    if(codigo == nullptr) cod[0] = 0;
+    else strcpy(cod, codigo);
 }
 
 bool operator >>(ifstream &arch,Producto &prod){
@@ -116,8 +118,12 @@ bool Producto::operator +=(Pedido& ped){
 }
 
 void operator <<(ofstream &arch,Producto &prod){
-    arch<<left<<setw(10)<<prod.GetCodigo()<<setw(60)<<prod.GetDescripcion()<<
-        right<<setw(10)<<prod.GetPrecio()<<setw(10)<<prod.GetStock();
+    char nomb[60], desc[60];
+    prod.GetCodigo(nomb);
+    prod.GetDescripcion(desc);
+    
+    arch<<left<<setw(10)<<nomb<<setw(60)<<desc<<right<<setw(10)<<
+        prod.GetPrecio()<<setw(10)<<prod.GetStock();
     if(prod.GetCantidad_clientes_servidos() == 0 and 
         prod.GetCantidad_clientes_no_servidos() == 0){
         arch<<"  NO SE ATENDIERON PEDIDOS"<<endl;

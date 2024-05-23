@@ -28,9 +28,9 @@ public:
     void SetPrecio(double precio);
     double GetPrecio() const;
     void SetDescripcion(char* descripcion);
-    char* GetDescripcion() const;
+    void GetDescripcion(char *desc) const;
     void SetCodigo(char* codigo);
-    char* GetCodigo() const;
+    void GetCodigo(char *cod) const;
     bool operator +=(Pedido& ped);
     void imprimirClientesServidos(ofstream &arch);
     void imprimirClientesNoServidos(ofstream &arch);
