@@ -1,40 +1,43 @@
 
+#include <iostream>
+#include <iomanip>
+using namespace std;
+
 #include "Semipresencial.h"
 
-Semipresencial::Semipresencial(){
+Semipresencial::Semipresencial() {
     total = 0;
 }
 
-void Semipresencial::setDescuento(double descuento){
-    this->descuento = descuento;
-}
-
-void Semipresencial::setTotal(double total){
+void Semipresencial::SetTotal(double total) {
     this->total = total;
 }
 
-double Semipresencial::getDescuento(){
-    return descuento;
-}
-
-double Semipresencial::getTotal(){
+double Semipresencial::GetTotal() const {
     return total;
 }
 
-void Semipresencial::llenarDatos(int cod, char *nomb, int esc, double descuento){
-    setCodigo(cod);
-    setNombre(nomb);
-    setEscala(esc);
-    setDescuento(descuento);
+void Semipresencial::SetDescuento(double descuento) {
+    this->descuento = descuento;
 }
 
-void Semipresencial::mostrarDatos(ofstream &arch){
-    char nomb[60];
-    getNombre(nomb);
-
-    arch << left << setw(10) << getCodigo() << setw(40) << nomb << right << 
-        setw(10) << getEscala() << setw(10) << getDescuento() << setw(10) << 
-        getTotal() << endl;
+double Semipresencial::GetDescuento() const {
+    return descuento;
 }
 
+void Semipresencial::leerDatos(ifstream&arch) {
+    Alumno::leerDatos(arch);
+    arch>>descuento;
+    arch.get();
+}
+
+void Semipresencial::actualiza(double monto) {
+    total = monto*GetDescuento()/100;
+    Alumno::SetTotal(monto-total);
+}
+
+void Semipresencial::imprime(ofstream&arch) {
+    Alumno::imprime(arch);
+    arch<<right<<setw(15)<<"-"<<setw(10)<<Alumno::GetTotal()<<endl;
+}
 

@@ -1,48 +1,68 @@
 
-#include<cstring>
+#include <iostream>
+#include <fstream>
+#include <iomanip>
+using namespace std;
+#include <cstring>
 #include "Alumno.h"
 
-Alumno::Alumno(){
+Alumno::Alumno() {
     nombre = nullptr;
-    total = 0;
+    codigo = 0;
+    total = 0.0;
 }
 
-Alumno::~Alumno(){
-    if(nombre != nullptr) delete[] nombre;
+Alumno::~Alumno() {
+    if(nombre!=nullptr) delete nombre;
 }
 
-void Alumno::setCodigo(int codigo){
-    this->codigo = codigo;
-}
-
-void Alumno::setNombre(char *nombre){
-    if(this->nombre != nullptr) delete[] this->nombre;
-    this->nombre = new char[strlen(nombre) + 1];
-    strcpy(this->nombre, nombre);
-}
-
-void Alumno::setEscala(int escala){
-    this->escala = escala;
-}
-
-void Alumno::setTotal(double total){
+void Alumno::SetTotal(double total) {
     this->total = total;
 }
 
-int Alumno::getCodigo(){
-    return codigo;
+double Alumno::GetTotal() const {
+    return total;
 }
 
-void Alumno::getNombre(char *nombre){
-    if (this->nombre == nullptr) nombre[0] = 0;
-    else strcpy(nombre, this->nombre);
+void Alumno::SetEscala(int escala) {
+    this->escala = escala;
 }
 
-int Alumno::getEscala(){
+int Alumno::GetEscala() const {
     return escala;
 }
 
-double Alumno::getTotal(){
-    return total;
+void Alumno::GetNombre(char*cad) const {
+    if(nombre==nullptr) cad[0]=0;
+    else strcpy(cad,nombre);
+}
+
+void Alumno::SetNombre(const char* cad) {
+    if(nombre!=nullptr) delete nombre;
+    nombre = new char[strlen(cad)+1];
+    strcpy(nombre,cad);
+}
+
+void Alumno::SetCodigo(int codigo) {
+    this->codigo = codigo;
+}
+
+int Alumno::GetCodigo() const {
+    return codigo;
+}
+
+void Alumno::leerDatos(ifstream &arch) {
+    char nomb[60];
+    arch>>codigo;
+    if(arch.eof())return;
+    arch.get();
+    arch.getline(nomb,60,',');
+    SetNombre(nomb);
+    arch>>escala;
+    arch.get();
+}
+
+void Alumno::imprime(ofstream&arch) {
+    arch<<left<<setw(10)<<codigo<<setw(40)<<nombre<<right<<setw(3)<<escala;
 }
 

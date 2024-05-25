@@ -1,19 +1,23 @@
 
+#include <iostream>
+#include <iomanip>
+using namespace std;
+
 #include "Escala.h"
 
-void Escala::setCodigo(int codigo){
-    this->codigo = codigo;
-}
-
-void Escala::setPrecio(double precio){
+void Escala::SetPrecio(double precio) {
     this->precio = precio;
 }
 
-int Escala::getCodigo(){
-    return codigo;
+double Escala::GetPrecio() const {
+    return precio;
 }
 
-double Escala::getPrecio(){
-    return precio;
+void Escala::SetCodigo(int codigo) {
+    this->codigo = codigo;
+}
+
+int Escala::GetCodigo() const {
+    return codigo;
 }
 

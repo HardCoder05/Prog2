@@ -1,38 +1,44 @@
 
+#include <iostream>
+#include <iomanip>
+using namespace std;
+
 #include "Presencial.h"
 
-Presencial::Presencial(){
+Presencial::Presencial() {
     total = 0;
 }
 
-void Presencial::setRecargo(double recargo){
-    this->recargo = recargo;
-}
-
-void Presencial::setTotal(double total){
+void Presencial::SetTotal(double total) {
     this->total = total;
 }
 
-double Presencial::getRecargo(){
-    return recargo;
-}
-
-double Presencial::getTotal(){
+double Presencial::GetTotal() const {
     return total;
 }
 
-void Presencial::llenarDatos(int cod, char *nomb, int esc, double recar){
-    setCodigo(cod);
-    setNombre(nomb);
-    setEscala(esc);
-    setRecargo(recar);
+void Presencial::SetRecargo(double recargo) {
+    this->recargo = recargo;
 }
 
-void Presencial::mostrarDatos(ofstream &arch){
-    char nomb[60];
-    getNombre(nomb);
-    arch << left << setw(10) << getCodigo() << setw(40) << nomb << right << 
-        setw(10) << getEscala() << setw(10) << getRecargo() << setw(10) << 
-        getTotal() << endl;
+double Presencial::GetRecargo() const {
+    return recargo;
 }
+
+void Presencial::leerDatos(ifstream &arch) {
+    Alumno::leerDatos(arch);
+    arch>>recargo;
+    arch.get(); // Lee el cambio de línea
+}
+
+void Presencial::actualiza(double monto) {
+    total = monto*GetRecargo()/100;
+    Alumno::SetTotal(monto+total);
+}
+
+void Presencial::imprime(ofstream&arch) {
+    Alumno::imprime(arch);
+    arch<<right<<setw(15)<<"+"<<setw(10)<<Alumno::GetTotal()<<endl;
+}
+
 

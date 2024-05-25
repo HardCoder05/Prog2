@@ -1,49 +1,52 @@
 
-#include<cstring>
+#include <iostream>
+#include <iomanip>
+using namespace std;
+#include <cstring>
 #include "Virtual.h"
 
-Virtual::Virtual(){
+Virtual::Virtual() {
     licencia = nullptr;
-    total = 0;
+    total = 100;
 }
 
-Virtual::~Virtual(){
-    if(licencia != nullptr) delete[] licencia;
+Virtual::~Virtual() {
+    if(licencia!=nullptr) delete licencia;
 }
 
-void Virtual::setLicencia(char *licencia){
-    if(this->licencia != nullptr) delete[] this->licencia;
-    this->licencia = new char[strlen(licencia) + 1];
-    strcpy(this->licencia, licencia);
-}
-
-void Virtual::setTotal(double total){
+void Virtual::SetTotal(double total) {
     this->total = total;
 }
 
-double Virtual::getTotal(){
+double Virtual::GetTotal() const {
     return total;
 }
 
-void Virtual::getLicencia(char *licencia){
-    if (this->licencia == nullptr) licencia[0] = 0;
-    else strcpy(licencia, this->licencia);
+void Virtual::SetLicencia(const char* cad) {
+    if(licencia!=nullptr) delete licencia;
+    licencia = new char[strlen(cad)+1];
+    strcpy(licencia,cad);
 }
 
-void Virtual::llenarDatos(int cod, char *nomb, int esc, char *licencia){
-    setCodigo(cod);
-    setNombre(nomb);
-    setEscala(esc);
-    setLicencia(licencia);
+void Virtual::GetLicencia(char*cad) const {
+    if(licencia==nullptr) cad[0]=0;
+    else strcpy(cad,licencia);
 }
 
-void Virtual::mostrarDatos(ofstream &arch){
-    char nomb[60], lic[30];
-    getNombre(nomb);
-    getLicencia(lic);
+void Virtual::leerDatos(ifstream&arch) {
+    char lic[30];
+    Alumno::leerDatos(arch);
+    arch.getline(lic,30);
+    SetLicencia(lic);
+}
 
-    arch << left << setw(10) << getCodigo() << setw(40) << nomb << right << 
-        setw(10) << getEscala() << setw(13) << lic << setw(7) << getTotal() << endl;
+void Virtual::actualiza(double monto) {
+    Alumno::SetTotal(monto+total);
+}
+
+void Virtual::imprime(ofstream&arch) {
+    Alumno::imprime(arch);
+    arch<<right<<setw(15)<<licencia<<setw(10)<<Alumno::GetTotal()<<endl;
 }
 
 

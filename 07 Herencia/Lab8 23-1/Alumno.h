@@ -1,27 +1,35 @@
 
-#pragma once
-#include <iostream>
-#include<fstream>
-#include<iomanip>   
-using namespace std;
+/* 
+ * File:   Alumno.h
+ * Author: rio88
+ *
+ * Created on 25 de mayo de 2024, 06:08 PM
+ */
 
-class Alumno{
-    private:
-        int codigo;
-        char *nombre;
-        int escala;
-        double total;
-    public:
-        Alumno();
-        virtual ~Alumno();
-        void setCodigo(int codigo);
-        void setNombre(char *nombre);
-        void setEscala(int escala);
-        void setTotal(double total);
-        int getCodigo();
-        void getNombre(char *nombre);
-        int getEscala();
-        double getTotal();
+#ifndef ALUMNO_H
+#define ALUMNO_H
+
+class Alumno {
+private:
+    int codigo;
+    char *nombre;
+    int escala ;
+    double total;
+public:
+    Alumno();
+    virtual ~Alumno();
+    void SetTotal(double total);
+    double GetTotal() const;
+    void SetEscala(int escala);
+    int GetEscala() const;
+    void SetNombre(const char* nombre);
+    void GetNombre(char*) const;
+    void SetCodigo(int codigo);
+    int GetCodigo() const;
+    void leerDatos(ifstream &);
+    void imprime(ofstream&);
 };
 
+
+#endif /* ALUMNO_H */
 
