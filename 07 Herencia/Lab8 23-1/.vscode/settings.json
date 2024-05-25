@@ -1,9 +1,0 @@
-{
-    "files.associations": {
-        "iosfwd": "cpp",
-        "iostream": "cpp"
-    },"editor.rulers": [80],
-    "workbench.colorCustomizations": {
-        "gitDecoration.modifiedResourceForeground": "#00ff48"
-    }
-}
