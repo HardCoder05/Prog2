@@ -77,15 +77,3 @@ void Tesoreria::imprime(){
     }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-

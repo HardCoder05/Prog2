@@ -21,4 +21,3 @@ class Semipresencial : public Alumno{
 };
 
 
-

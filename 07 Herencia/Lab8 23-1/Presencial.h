@@ -21,5 +21,3 @@ class Presencial : public Alumno{
         void mostrarDatos(ofstream &);
 };
 
-
-

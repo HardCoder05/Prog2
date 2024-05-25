@@ -47,15 +47,3 @@ void Virtual::mostrarDatos(ofstream &arch){
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-

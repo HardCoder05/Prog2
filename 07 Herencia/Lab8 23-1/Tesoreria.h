@@ -22,20 +22,3 @@ class Tesoreria{
         void imprime();
 };
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

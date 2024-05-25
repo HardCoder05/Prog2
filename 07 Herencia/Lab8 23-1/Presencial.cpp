@@ -36,20 +36,3 @@ void Presencial::mostrarDatos(ofstream &arch){
         getTotal() << endl;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

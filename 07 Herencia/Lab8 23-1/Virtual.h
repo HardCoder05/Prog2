@@ -22,17 +22,3 @@ class Virtual: public Alumno{
 };
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-

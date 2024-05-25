@@ -17,22 +17,3 @@ double Escala::getPrecio(){
     return precio;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

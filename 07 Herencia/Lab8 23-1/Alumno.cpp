@@ -46,20 +46,3 @@ double Alumno::getTotal(){
     return total;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

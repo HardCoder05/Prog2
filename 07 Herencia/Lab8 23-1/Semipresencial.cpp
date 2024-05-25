@@ -38,15 +38,3 @@ void Semipresencial::mostrarDatos(ofstream &arch){
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
