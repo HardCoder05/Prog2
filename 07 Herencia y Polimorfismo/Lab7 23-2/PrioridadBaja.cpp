@@ -34,9 +34,15 @@ void PrioridadBaja::lee(ifstream &arch){
     arch.get(); //salto de linea por si aca
 }
 
+void PrioridadBaja::actualiza(void){
+    int fecha = Pedido::GetFecha();
+    nueva_fecha_entrega = fecha + dias_espera;
+    Pedido::SetFecha(fecha + dias_espera);
+}
+
 void PrioridadBaja::imprime(ofstream &arch){
     arch<<"Pedido de Prioridad Baja: "<<endl;
     Pedido::imprime(arch);
-    arch<<dias_espera<<setw(10)<<Pedido::GetTotal()<<endl<<endl;
+    arch<<dias_espera<<setw(10)<<nueva_fecha_entrega<<endl<<endl;
 }
 

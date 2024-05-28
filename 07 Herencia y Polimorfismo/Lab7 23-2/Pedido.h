@@ -30,6 +30,7 @@ public:
     void SetCodigo(char* cod);
     void GetCodigo(char *cod) const;
     virtual void lee(ifstream & );
+    virtual void actualiza(void) = 0; //metodo implementado por las clases derivadas
     virtual void imprime(ofstream&);
 private:
     char *codigo;

@@ -50,11 +50,20 @@ void PrioridadMedia::lee(ifstream &arch){
     arch.get(); //salto por si aca
 }
 
+void PrioridadMedia::actualiza(void){
+    char desc[9];
+    this->GetDescripcion(desc);
+    Pedido::SetEstado(desc);
+    int fecha = Pedido::GetFecha();
+    this->SetNueva_fecha_entrega(fecha + 1);
+    Pedido::SetFecha(fecha + 1);
+}
+
 void PrioridadMedia::imprime(ofstream &arch){
     arch<<"Pedido de Prioridad Media: "<<endl;
     Pedido::imprime(arch);
-    char desc[10];
-    GetDescripcion(desc);
-    arch<<left<<setw(15)<<desc<<Pedido::GetTotal()<<right<<endl<<endl;
+    char estado[10];
+    Pedido::GetEstado(estado); //estado
+    arch<<left<<setw(15)<<estado<<nueva_fecha_entrega<<right<<endl<<endl;
 }
 

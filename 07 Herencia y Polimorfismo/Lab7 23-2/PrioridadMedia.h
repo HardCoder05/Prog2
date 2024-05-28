@@ -21,6 +21,7 @@ public:
     void SetDescripcion(char* desc);
     void GetDescripcion(char *desc) const;
     void lee(ifstream &);
+    void actualiza(void);
     void imprime(ofstream &);
 private:
     char *descripcion;

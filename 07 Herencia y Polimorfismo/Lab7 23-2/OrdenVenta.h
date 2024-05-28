@@ -15,6 +15,7 @@ using namespace std;
 class OrdenVenta {
 public:
     void leerOrden(ifstream &,char );
+    void actualizarOrden();
     void imprimirOrden(ofstream &);
 private:
     Pedido *ptr_orden;

@@ -20,6 +20,7 @@ public:
     void SetDias_espera(int dias_espera);
     int GetDias_espera() const;
     void lee(ifstream &);
+    void actualiza(void);
     void imprime(ofstream &);
 private:
     int dias_espera;

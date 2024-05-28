@@ -11,11 +11,6 @@
 #include<iomanip>
 using namespace std;
 #include "Almacen.h"
-#include "Pedido.h"
-#include "PrioridadAlta.h"
-#include "PrioridadMedia.h"
-#include "PrioridadBaja.h"
-
 
 Almacen::Almacen() {
     cantidad_ordenes = 0;
@@ -31,6 +26,12 @@ void Almacen::cargar_pedidos(const char *nom){
         arch.get(); //coma
         ordenes[cantidad_ordenes].leerOrden(arch, tipo);
         cantidad_ordenes++;
+    }
+}
+
+void Almacen::actualizar_pedidos(void){
+    for(int i=0 ; i < cantidad_ordenes ; i++){
+        ordenes[i].actualizarOrden();
     }
 }
 

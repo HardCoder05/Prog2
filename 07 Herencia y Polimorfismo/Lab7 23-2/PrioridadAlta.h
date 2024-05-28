@@ -20,6 +20,7 @@ public:
     void SetRecargo(double recargo);
     double GetRecargo() const;
     void lee(ifstream &);
+    void actualiza(void);
     void imprime(ofstream &);
 private:
     double recargo;

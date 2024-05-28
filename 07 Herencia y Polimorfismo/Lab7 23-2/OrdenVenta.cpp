@@ -22,6 +22,10 @@ void OrdenVenta::leerOrden(ifstream &arch,char tipo){
     ptr_orden->lee(arch);
 }
 
+void OrdenVenta::actualizarOrden(){
+    ptr_orden->actualiza();
+}
+
 void OrdenVenta::imprimirOrden(ofstream &arch){
     ptr_orden->imprime(arch);
 }
