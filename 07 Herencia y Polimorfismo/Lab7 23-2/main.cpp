@@ -12,7 +12,8 @@ int main(int argc, char** argv) {
     Almacen almacen;
     
     almacen.cargar_pedidos("pedidos.csv");
-    almacen.imprimir_ordenes_venta("ReportePrueba.txt");
+    almacen.actualizar_pedidos();
+    almacen.imprimir_ordenes_venta("ReporteFinal.txt");
     
     return 0;
 }
