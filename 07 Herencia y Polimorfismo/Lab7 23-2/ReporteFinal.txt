@@ -1,0 +1,2252 @@
+Pedido de Prioridad Baja: 
+JXD-139  50375303     64.82  20231206
+5  20231206
+
+Pedido de Prioridad Media: 
+CRU-009  50375303     49.38  20231127
+Activo         20231127
+
+Pedido de Prioridad Alta: 
+YYK-309  22777006     69.37  20231111
+7   74.2259
+
+Pedido de Prioridad Alta: 
+OTS-581  42157219     67.26  20231107
+7   71.9682
+
+Pedido de Prioridad Media: 
+AWB-345  13245501      67.6  20231219
+Activo         20231219
+
+Pedido de Prioridad Alta: 
+IHG-413  33397650     55.69  20231224
+10    61.259
+
+Pedido de Prioridad Alta: 
+KQQ-136  97403853      13.8  20231217
+5     14.49
+
+Pedido de Prioridad Baja: 
+OQI-373  78757121     25.17  20231108
+5  20231108
+
+Pedido de Prioridad Baja: 
+PVZ-181  26290971     89.72  20231228
+3  20231228
+
+Pedido de Prioridad Alta: 
+ICX-503  27912250     20.29  20231227
+10    22.319
+
+Pedido de Prioridad Alta: 
+DFF-034  98140264     59.57  20231208
+5   62.5485
+
+Pedido de Prioridad Media: 
+VCL-867  25171011     89.65  20231106
+Inactivo       20231106
+
+Pedido de Prioridad Alta: 
+TZY-323  57263719     40.29  20231212
+10    44.319
+
+Pedido de Prioridad Media: 
+PJG-338  63437380     35.11  20231110
+Activo         20231110
+
+Pedido de Prioridad Alta: 
+SSD-176  35584593     81.61  20231221
+5   85.6905
+
+Pedido de Prioridad Baja: 
+BWD-036  60574154     81.06  20231110
+5  20231110
+
+Pedido de Prioridad Media: 
+FLJ-040  73535476      13.6  20231119
+Inactivo       20231119
+
+Pedido de Prioridad Baja: 
+JDC-028  31193794     62.23  20231122
+4  20231122
+
+Pedido de Prioridad Media: 
+OTH-462  73185299     89.55  20231202
+Activo         20231202
+
+Pedido de Prioridad Baja: 
+QIL-029  86828079     14.43  20231122
+3  20231122
+
+Pedido de Prioridad Baja: 
+UWA-476  77484838     15.86  20231133
+5  20231133
+
+Pedido de Prioridad Baja: 
+XOA-735  13245501     81.75  20231213
+5  20231213
+
+Pedido de Prioridad Alta: 
+OBI-353  79901434     19.97  20231229
+10    21.967
+
+Pedido de Prioridad Media: 
+AWB-345  16552775     26.73  20231228
+Inactivo       20231228
+
+Pedido de Prioridad Alta: 
+CSZ-863  57690875      23.8  20231101
+7    25.466
+
+Pedido de Prioridad Alta: 
+UWA-476  73535476     18.24  20231107
+7   19.5168
+
+Pedido de Prioridad Baja: 
+MLE-193  87813843     25.13  20231132
+4  20231132
+
+Pedido de Prioridad Baja: 
+UOD-420  95751208     60.44  20231213
+5  20231213
+
+Pedido de Prioridad Baja: 
+KWP-672  87800799      51.7  20231219
+3  20231219
+
+Pedido de Prioridad Media: 
+BXY-119  20864087     83.53  20231131
+Activo         20231131
+
+Pedido de Prioridad Baja: 
+KCO-488  46462527     62.23  20231214
+4  20231214
+
+Pedido de Prioridad Baja: 
+PQH-935  71984468     20.77  20231232
+4  20231232
+
+Pedido de Prioridad Alta: 
+GBJ-693  15561764     20.15  20231229
+10    22.165
+
+Pedido de Prioridad Baja: 
+XLF-273  43488351     83.48  20231215
+3  20231215
+
+Pedido de Prioridad Baja: 
+RSE-049  15210391     89.89  20231135
+5  20231135
+
+Pedido de Prioridad Alta: 
+CJE-310  79464412      36.3  20231228
+10     39.93
+
+Pedido de Prioridad Baja: 
+SJQ-827  76388967     81.96  20231124
+3  20231124
+
+Pedido de Prioridad Baja: 
+TKM-141  89148118     43.58  20231113
+5  20231113
+
+Pedido de Prioridad Alta: 
+EBI-299  76388967     72.17  20231207
+10    79.387
+
+Pedido de Prioridad Baja: 
+DFF-034  79140840     87.73  20231107
+5  20231107
+
+Pedido de Prioridad Media: 
+SSD-176  37110873     68.32  20231210
+Activo         20231210
+
+Pedido de Prioridad Baja: 
+ZEX-027  43043986     83.86  20231204
+3  20231204
+
+Pedido de Prioridad Media: 
+OBI-353  73914283      14.6  20231116
+Activo         20231116
+
+Pedido de Prioridad Media: 
+SJD-818  41036366     67.67  20231205
+Inactivo       20231205
+
+Pedido de Prioridad Media: 
+GLC-370  28390487      60.6  20231125
+Activo         20231125
+
+Pedido de Prioridad Baja: 
+YUQ-590  45783712     26.62  20231127
+4  20231127
+
+Pedido de Prioridad Baja: 
+QHC-492  29337157     90.37  20231210
+4  20231210
+
+Pedido de Prioridad Alta: 
+CIM-038  35565959     75.01  20231205
+10    82.511
+
+Pedido de Prioridad Baja: 
+CRU-009  96258632     81.64  20231208
+4  20231208
+
+Pedido de Prioridad Baja: 
+AHB-459  12663268     21.28  20231117
+3  20231117
+
+Pedido de Prioridad Alta: 
+MQR-442  86828079     99.66  20231125
+7   106.636
+
+Pedido de Prioridad Alta: 
+CNN-411  16552775     31.19  20231225
+5   32.7495
+
+Pedido de Prioridad Alta: 
+AFL-718  50365593     23.65  20231211
+5   24.8325
+
+Pedido de Prioridad Alta: 
+CIM-038  11602775     89.71  20231230
+7   95.9897
+
+Pedido de Prioridad Media: 
+XZR-640  78078115     89.72  20231112
+Inactivo       20231112
+
+Pedido de Prioridad Alta: 
+LDR-510  62324793     51.85  20231221
+10    57.035
+
+Pedido de Prioridad Baja: 
+QUU-384  37110873     28.27  20231121
+5  20231121
+
+Pedido de Prioridad Alta: 
+OWN-701  36380447     91.67  20231107
+5   96.2535
+
+Pedido de Prioridad Baja: 
+BTO-226  77484838     48.31  20231231
+3  20231231
+
+Pedido de Prioridad Media: 
+BRD-969  98140264     46.86  20231229
+Inactivo       20231229
+
+Pedido de Prioridad Alta: 
+ZEX-027  29337157     28.77  20231219
+10    31.647
+
+Pedido de Prioridad Media: 
+DFJ-952  84165595     34.62  20231208
+Activo         20231208
+
+Pedido de Prioridad Baja: 
+RDT-761  84165595     28.77  20231225
+3  20231225
+
+Pedido de Prioridad Baja: 
+TMN-884  88956889     93.51  20231220
+3  20231220
+
+Pedido de Prioridad Baja: 
+FEG-454  59162728      93.3  20231208
+3  20231208
+
+Pedido de Prioridad Media: 
+JDC-028  50365593     24.16  20231102
+Inactivo       20231102
+
+Pedido de Prioridad Media: 
+JCW-489  69324480     90.42  20231210
+Inactivo       20231210
+
+Pedido de Prioridad Baja: 
+KWP-672  46462527     82.76  20231107
+3  20231107
+
+Pedido de Prioridad Baja: 
+VDD-853  49087435     42.82  20231111
+4  20231111
+
+Pedido de Prioridad Media: 
+ZEX-027  79901434     11.55  20231114
+Activo         20231114
+
+Pedido de Prioridad Media: 
+ZVA-180  33713901      54.2  20231203
+Activo         20231203
+
+Pedido de Prioridad Alta: 
+KQA-580  50375303     35.79  20231101
+5   37.5795
+
+Pedido de Prioridad Alta: 
+QUU-384  77642521     67.54  20231223
+7   72.2678
+
+Pedido de Prioridad Media: 
+TKM-141  78922174     42.41  20231115
+Activo         20231115
+
+Pedido de Prioridad Media: 
+NMV-644  94080926     29.67  20231204
+Inactivo       20231204
+
+Pedido de Prioridad Alta: 
+CIM-038  93845419     78.91  20231214
+7   84.4337
+
+Pedido de Prioridad Alta: 
+TYF-885  62566305     50.44  20231229
+5    52.962
+
+Pedido de Prioridad Media: 
+OQI-373  86402303     56.46  20231222
+Inactivo       20231222
+
+Pedido de Prioridad Media: 
+AHB-459  79901434      96.3  20231115
+Activo         20231115
+
+Pedido de Prioridad Media: 
+IDO-503  32565207      77.9  20231204
+Inactivo       20231204
+
+Pedido de Prioridad Baja: 
+BCK-361  49087435     47.48  20231123
+5  20231123
+
+Pedido de Prioridad Baja: 
+TYF-885  83505958      11.6  20231121
+3  20231121
+
+Pedido de Prioridad Alta: 
+OPT-996  25171011     58.82  20231109
+7   62.9374
+
+Pedido de Prioridad Alta: 
+VVS-017  45877001     39.17  20231111
+10    43.087
+
+Pedido de Prioridad Baja: 
+QUU-384  67418025     49.63  20231219
+3  20231219
+
+Pedido de Prioridad Alta: 
+YOT-530  43053402     86.72  20231221
+7   92.7904
+
+Pedido de Prioridad Baja: 
+ISU-815  52097922     13.61  20231134
+5  20231134
+
+Pedido de Prioridad Alta: 
+III-576  63437380     73.89  20231202
+5   77.5845
+
+Pedido de Prioridad Baja: 
+LWG-915  50365593     53.32  20231222
+3  20231222
+
+Pedido de Prioridad Alta: 
+BWD-036  57263719     17.04  20231218
+10    18.744
+
+Pedido de Prioridad Alta: 
+AFL-718  78922174     10.98  20231122
+10    12.078
+
+Pedido de Prioridad Alta: 
+AWB-345  63437380     13.01  20231104
+7   13.9207
+
+Pedido de Prioridad Alta: 
+YYU-726  12663268      72.1  20231220
+7    77.147
+
+Pedido de Prioridad Baja: 
+JJN-837  11602775     12.24  20231135
+5  20231135
+
+Pedido de Prioridad Alta: 
+ZWF-661  17972674     25.67  20231215
+7   27.4669
+
+Pedido de Prioridad Media: 
+EJW-346  83505958     55.69  20231113
+Inactivo       20231113
+
+Pedido de Prioridad Media: 
+BWD-036  79475585     64.46  20231114
+Inactivo       20231114
+
+Pedido de Prioridad Media: 
+UWA-476  17972674     62.79  20231205
+Inactivo       20231205
+
+Pedido de Prioridad Baja: 
+XLF-273  89148118     36.61  20231206
+5  20231206
+
+Pedido de Prioridad Media: 
+UXG-019  32565207        91  20231204
+Activo         20231204
+
+Pedido de Prioridad Media: 
+NSM-283  79464412     29.41  20231127
+Activo         20231127
+
+Pedido de Prioridad Media: 
+VJI-529  95161027     91.93  20231106
+Activo         20231106
+
+Pedido de Prioridad Baja: 
+TYF-885  79140840     24.99  20231222
+3  20231222
+
+Pedido de Prioridad Alta: 
+YZD-580  37110873      52.8  20231230
+5     55.44
+
+Pedido de Prioridad Alta: 
+XLF-273  11602775     14.47  20231212
+7   15.4829
+
+Pedido de Prioridad Media: 
+TZY-323  15210391     21.48  20231227
+Activo         20231227
+
+Pedido de Prioridad Media: 
+LWG-915  27912250     48.97  20231123
+Inactivo       20231123
+
+Pedido de Prioridad Media: 
+TMN-884  91897732     20.84  20231107
+Inactivo       20231107
+
+Pedido de Prioridad Media: 
+QHC-492  98140264     17.78  20231227
+Activo         20231227
+
+Pedido de Prioridad Baja: 
+UJV-290  83236386      67.6  20231113
+3  20231113
+
+Pedido de Prioridad Baja: 
+OWN-701  52097922      72.2  20231113
+3  20231113
+
+Pedido de Prioridad Baja: 
+WZD-331  40348917     86.86  20231222
+5  20231222
+
+Pedido de Prioridad Alta: 
+BIT-434  71378466     29.75  20231202
+10    32.725
+
+Pedido de Prioridad Media: 
+AWT-354  71463316     88.53  20231220
+Activo         20231220
+
+Pedido de Prioridad Alta: 
+III-576  95161027     72.98  20231205
+5    76.629
+
+Pedido de Prioridad Baja: 
+KCO-488  71463316     52.94  20231207
+3  20231207
+
+Pedido de Prioridad Alta: 
+KCO-488  24995742     27.44  20231218
+5    28.812
+
+Pedido de Prioridad Alta: 
+JFC-432  20864087     40.15  20231216
+7   42.9605
+
+Pedido de Prioridad Media: 
+YOT-530  31611146     80.54  20231203
+Activo         20231203
+
+Pedido de Prioridad Alta: 
+JFC-432  85949265     71.13  20231211
+10    78.243
+
+Pedido de Prioridad Media: 
+DFJ-952  77642521     49.06  20231105
+Inactivo       20231105
+
+Pedido de Prioridad Media: 
+QHC-492  53166028     36.97  20231223
+Inactivo       20231223
+
+Pedido de Prioridad Media: 
+PFD-286  90237332     55.07  20231217
+Inactivo       20231217
+
+Pedido de Prioridad Alta: 
+MQR-442  83505958     57.06  20231205
+7   61.0542
+
+Pedido de Prioridad Alta: 
+JYQ-045  15561764     94.58  20231123
+7   101.201
+
+Pedido de Prioridad Baja: 
+AFL-718  50375303     45.08  20231224
+4  20231224
+
+Pedido de Prioridad Alta: 
+AFL-718  77484838     48.54  20231226
+10    53.394
+
+Pedido de Prioridad Baja: 
+BCK-361  97403853     87.91  20231112
+4  20231112
+
+Pedido de Prioridad Alta: 
+XSD-310  12663268     53.05  20231116
+10    58.355
+
+Pedido de Prioridad Media: 
+TXM-139  19829266     91.27  20231131
+Activo         20231131
+
+Pedido de Prioridad Media: 
+KQA-580  63437380     54.01  20231219
+Inactivo       20231219
+
+Pedido de Prioridad Baja: 
+RAH-420  12663268     94.35  20231109
+3  20231109
+
+Pedido de Prioridad Media: 
+PFD-286  89298238     66.57  20231131
+Activo         20231131
+
+Pedido de Prioridad Alta: 
+NSM-283  42928709      77.3  20231103
+5    81.165
+
+Pedido de Prioridad Baja: 
+PJG-338  45877001     62.19  20231207
+4  20231207
+
+Pedido de Prioridad Media: 
+OQI-373  42928709     99.23  20231102
+Activo         20231102
+
+Pedido de Prioridad Alta: 
+ONB-903  32821689     85.99  20231103
+5   90.2895
+
+Pedido de Prioridad Baja: 
+FVQ-662  71378466     51.07  20231127
+3  20231127
+
+Pedido de Prioridad Alta: 
+YYK-309  11602775     45.35  20231124
+5   47.6175
+
+Pedido de Prioridad Alta: 
+UDR-957  77484838     71.08  20231219
+7   76.0556
+
+Pedido de Prioridad Media: 
+FYF-898  15561764     63.64  20231120
+Inactivo       20231120
+
+Pedido de Prioridad Media: 
+CIM-038  57690875     87.28  20231104
+Activo         20231104
+
+Pedido de Prioridad Alta: 
+SPR-580  54716824     30.34  20231222
+10    33.374
+
+Pedido de Prioridad Media: 
+VVS-017  95161027     58.54  20231229
+Inactivo       20231229
+
+Pedido de Prioridad Baja: 
+KWP-672  90365520     83.81  20231212
+4  20231212
+
+Pedido de Prioridad Alta: 
+QHC-492  73185299     68.42  20231202
+7   73.2094
+
+Pedido de Prioridad Baja: 
+QFR-958  45783712     34.39  20231105
+3  20231105
+
+Pedido de Prioridad Media: 
+SJQ-827  49087435     83.49  20231221
+Inactivo       20231221
+
+Pedido de Prioridad Baja: 
+DEV-433  54761731      42.7  20231207
+4  20231207
+
+Pedido de Prioridad Alta: 
+MMA-577  43053402     33.29  20231117
+5   34.9545
+
+Pedido de Prioridad Media: 
+ZXK-295  78757121     39.68  20231222
+Activo         20231222
+
+Pedido de Prioridad Baja: 
+VXS-438  13245501     63.96  20231224
+5  20231224
+
+Pedido de Prioridad Alta: 
+LWG-915  46462527      85.7  20231114
+10     94.27
+
+Pedido de Prioridad Media: 
+YUQ-590  88956889     24.39  20231230
+Inactivo       20231230
+
+Pedido de Prioridad Baja: 
+AQS-362  55552996      25.3  20231119
+4  20231119
+
+Pedido de Prioridad Media: 
+RSE-049  76388967      25.1  20231205
+Activo         20231205
+
+Pedido de Prioridad Alta: 
+III-576  60574154     41.39  20231128
+7   44.2873
+
+Pedido de Prioridad Alta: 
+UXG-019  55552996     97.07  20231224
+7   103.865
+
+Pedido de Prioridad Media: 
+VRR-793  87800799     77.98  20231220
+Inactivo       20231220
+
+Pedido de Prioridad Media: 
+EJW-346  78922174     35.76  20231211
+Activo         20231211
+
+Pedido de Prioridad Media: 
+BCK-361  80048864     78.35  20231120
+Activo         20231120
+
+Pedido de Prioridad Media: 
+AWB-345  25171011     53.65  20231228
+Activo         20231228
+
+Pedido de Prioridad Media: 
+FCN-617  22777006      46.4  20231113
+Activo         20231113
+
+Pedido de Prioridad Media: 
+AQS-362  42798099     20.68  20231225
+Activo         20231225
+
+Pedido de Prioridad Media: 
+QFP-254  90237332     93.12  20231210
+Inactivo       20231210
+
+Pedido de Prioridad Alta: 
+DIQ-718  62566305     22.49  20231121
+7   24.0643
+
+Pedido de Prioridad Alta: 
+BIT-434  59407188     57.09  20231118
+5   59.9445
+
+Pedido de Prioridad Media: 
+TMN-884  42798099     43.48  20231210
+Activo         20231210
+
+Pedido de Prioridad Baja: 
+OXP-732  79901434     95.01  20231110
+5  20231110
+
+Pedido de Prioridad Alta: 
+SNY-500  40348917     17.89  20231226
+7   19.1423
+
+Pedido de Prioridad Media: 
+QUU-384  73185299      94.2  20231229
+Inactivo       20231229
+
+Pedido de Prioridad Baja: 
+MTF-868  83236386     33.53  20231216
+3  20231216
+
+Pedido de Prioridad Alta: 
+VXS-438  89429489     86.19  20231201
+7   92.2233
+
+Pedido de Prioridad Alta: 
+VTV-269  26976877     69.59  20231124
+7   74.4613
+
+Pedido de Prioridad Baja: 
+IHG-413  17913944     99.18  20231114
+5  20231114
+
+Pedido de Prioridad Baja: 
+SNY-500  43877279     90.63  20231117
+5  20231117
+
+Pedido de Prioridad Baja: 
+GXF-122  37110873     43.62  20231209
+3  20231209
+
+Pedido de Prioridad Baja: 
+BCN-855  38913831     71.56  20231216
+5  20231216
+
+Pedido de Prioridad Baja: 
+JXD-139  44229880     61.07  20231130
+5  20231130
+
+Pedido de Prioridad Baja: 
+FVQ-662  32565207     75.09  20231205
+4  20231205
+
+Pedido de Prioridad Media: 
+DUG-251  32904023     42.68  20231222
+Inactivo       20231222
+
+Pedido de Prioridad Media: 
+QJO-060  45828535     68.61  20231221
+Inactivo       20231221
+
+Pedido de Prioridad Media: 
+YMU-875  24995742     82.85  20231108
+Activo         20231108
+
+Pedido de Prioridad Alta: 
+VRR-793  81114108     77.11  20231213
+10    84.821
+
+Pedido de Prioridad Baja: 
+TYF-885  26290971     21.03  20231108
+4  20231108
+
+Pedido de Prioridad Media: 
+ADX-669  96659352     75.98  20231218
+Activo         20231218
+
+Pedido de Prioridad Media: 
+CJE-310  98140264     94.33  20231110
+Inactivo       20231110
+
+Pedido de Prioridad Media: 
+AFL-718  26976877     38.55  20231231
+Inactivo       20231231
+
+Pedido de Prioridad Baja: 
+EBI-299  71463316     55.32  20231124
+5  20231124
+
+Pedido de Prioridad Alta: 
+AFL-718  89148118     11.25  20231112
+10    12.375
+
+Pedido de Prioridad Alta: 
+OPT-996  83236386     77.62  20231211
+7   83.0534
+
+Pedido de Prioridad Alta: 
+PVZ-181  90237332     52.49  20231105
+7   56.1643
+
+Pedido de Prioridad Alta: 
+WZD-331  16151792     92.59  20231126
+10   101.849
+
+Pedido de Prioridad Baja: 
+RDT-761  80048864      50.3  20231234
+5  20231234
+
+Pedido de Prioridad Alta: 
+TXM-139  94080926     56.58  20231115
+7   60.5406
+
+Pedido de Prioridad Baja: 
+KSO-608  40112594     90.47  20231121
+5  20231121
+
+Pedido de Prioridad Media: 
+CIM-038  73535476     42.85  20231107
+Inactivo       20231107
+
+Pedido de Prioridad Baja: 
+FLJ-040  40348917        59  20231112
+4  20231112
+
+Pedido de Prioridad Baja: 
+HFM-021  88956889     78.24  20231227
+3  20231227
+
+Pedido de Prioridad Media: 
+AQS-362  41036366     85.21  20231203
+Inactivo       20231203
+
+Pedido de Prioridad Alta: 
+TYF-885  43877279     69.21  20231222
+7   74.0547
+
+Pedido de Prioridad Baja: 
+OQI-373  42798099     90.13  20231220
+4  20231220
+
+Pedido de Prioridad Baja: 
+QVJ-982  77191257     19.87  20231117
+4  20231117
+
+Pedido de Prioridad Alta: 
+VRR-793  98589725     57.11  20231121
+10    62.821
+
+Pedido de Prioridad Media: 
+CIM-038  25171011      47.3  20231203
+Inactivo       20231203
+
+Pedido de Prioridad Alta: 
+JDQ-505  20864087     30.59  20231117
+5   32.1195
+
+Pedido de Prioridad Baja: 
+III-576  42157219     82.58  20231128
+5  20231128
+
+Pedido de Prioridad Media: 
+JXD-139  79464412     85.78  20231204
+Inactivo       20231204
+
+Pedido de Prioridad Media: 
+QRC-609  25171011     16.14  20231217
+Inactivo       20231217
+
+Pedido de Prioridad Baja: 
+QTK-083  89298238     97.55  20231132
+3  20231132
+
+Pedido de Prioridad Baja: 
+BCN-855  81114108      58.9  20231213
+3  20231213
+
+Pedido de Prioridad Baja: 
+QFP-254  89298238     44.54  20231106
+5  20231106
+
+Pedido de Prioridad Media: 
+DFF-034  66409237     18.56  20231117
+Activo         20231117
+
+Pedido de Prioridad Alta: 
+GBD-525  52097922      73.4  20231218
+5     77.07
+
+Pedido de Prioridad Baja: 
+JFC-432  89148118     49.36  20231128
+4  20231128
+
+Pedido de Prioridad Baja: 
+FLJ-040  38637282     34.15  20231206
+5  20231206
+
+Pedido de Prioridad Baja: 
+TMN-884  23928045     90.46  20231113
+4  20231113
+
+Pedido de Prioridad Media: 
+AWB-345  44679500     48.26  20231125
+Inactivo       20231125
+
+Pedido de Prioridad Baja: 
+CNQ-172  16151792     60.48  20231121
+3  20231121
+
+Pedido de Prioridad Media: 
+UWA-476  37110873      54.1  20231222
+Inactivo       20231222
+
+Pedido de Prioridad Media: 
+JDQ-505  48467976     34.61  20231108
+Inactivo       20231108
+
+Pedido de Prioridad Media: 
+XSD-310  22280452     16.08  20231224
+Inactivo       20231224
+
+Pedido de Prioridad Media: 
+BCK-361  29847168     14.51  20231105
+Inactivo       20231105
+
+Pedido de Prioridad Media: 
+XSD-310  45828535     94.31  20231222
+Activo         20231222
+
+Pedido de Prioridad Alta: 
+AVM-258  35584593     36.67  20231226
+7   39.2369
+
+Pedido de Prioridad Media: 
+QHC-492  96258632     14.53  20231216
+Inactivo       20231216
+
+Pedido de Prioridad Media: 
+SJD-818  55552996     19.63  20231104
+Inactivo       20231104
+
+Pedido de Prioridad Alta: 
+FQG-293  55552996     67.31  20231101
+10    74.041
+
+Pedido de Prioridad Baja: 
+MYC-756  85871751     37.98  20231219
+4  20231219
+
+Pedido de Prioridad Baja: 
+QFP-254  43043986        52  20231134
+5  20231134
+
+Pedido de Prioridad Alta: 
+AVM-258  45828535     37.55  20231214
+5   39.4275
+
+Pedido de Prioridad Media: 
+UWA-476  71463316     31.23  20231126
+Activo         20231126
+
+Pedido de Prioridad Baja: 
+ARS-231  71378466     42.35  20231114
+5  20231114
+
+Pedido de Prioridad Media: 
+KQQ-136  79475585     84.75  20231212
+Inactivo       20231212
+
+Pedido de Prioridad Alta: 
+AWT-354  66409237     54.64  20231227
+10    60.104
+
+Pedido de Prioridad Baja: 
+WZD-331  69975105     26.91  20231229
+3  20231229
+
+Pedido de Prioridad Baja: 
+XLF-273  42928709     81.67  20231115
+5  20231115
+
+Pedido de Prioridad Baja: 
+UWA-476  88956889     25.85  20231130
+3  20231130
+
+Pedido de Prioridad Media: 
+MMA-577  32821689     31.58  20231121
+Activo         20231121
+
+Pedido de Prioridad Alta: 
+TMJ-043  85949265     68.18  20231103
+7   72.9526
+
+Pedido de Prioridad Media: 
+DFF-034  78078115     88.21  20231109
+Activo         20231109
+
+Pedido de Prioridad Baja: 
+KJX-387  32904023     73.23  20231114
+3  20231114
+
+Pedido de Prioridad Media: 
+KBY-991  90365520     26.13  20231223
+Activo         20231223
+
+Pedido de Prioridad Alta: 
+XZR-640  91897732     63.03  20231202
+7   67.4421
+
+Pedido de Prioridad Media: 
+KQA-580  96659352     30.08  20231127
+Activo         20231127
+
+Pedido de Prioridad Media: 
+JXD-139  26976877     18.05  20231130
+Inactivo       20231130
+
+Pedido de Prioridad Media: 
+KCO-488  42157219     93.36  20231227
+Activo         20231227
+
+Pedido de Prioridad Baja: 
+UOD-420  69324480     34.71  20231214
+3  20231214
+
+Pedido de Prioridad Media: 
+BRD-969  66409237      79.5  20231108
+Activo         20231108
+
+Pedido de Prioridad Baja: 
+QFP-254  71463316     16.09  20231132
+4  20231132
+
+Pedido de Prioridad Baja: 
+VRR-793  22280452     17.79  20231219
+3  20231219
+
+Pedido de Prioridad Baja: 
+HLR-109  79140840     76.17  20231106
+5  20231106
+
+Pedido de Prioridad Media: 
+LDR-510  73535476     23.26  20231116
+Inactivo       20231116
+
+Pedido de Prioridad Media: 
+YYU-726  93160528     84.29  20231121
+Activo         20231121
+
+Pedido de Prioridad Baja: 
+OWN-701  59407188      82.2  20231135
+5  20231135
+
+Pedido de Prioridad Alta: 
+ZAF-449  26233063     68.12  20231209
+7   72.8884
+
+Pedido de Prioridad Media: 
+ISU-815  46462527     98.22  20231211
+Inactivo       20231211
+
+Pedido de Prioridad Media: 
+WZD-331  87800799     41.79  20231122
+Activo         20231122
+
+Pedido de Prioridad Baja: 
+OQI-373  90237332     78.75  20231233
+4  20231233
+
+Pedido de Prioridad Alta: 
+BCN-855  71463316     61.03  20231208
+10    67.133
+
+Pedido de Prioridad Alta: 
+QFP-254  42928709     65.07  20231226
+7   69.6249
+
+Pedido de Prioridad Media: 
+UJV-290  89298238     89.78  20231227
+Activo         20231227
+
+Pedido de Prioridad Media: 
+UXG-019  66409237      98.9  20231130
+Activo         20231130
+
+Pedido de Prioridad Alta: 
+SSE-115  89863424     33.85  20231208
+10    37.235
+
+Pedido de Prioridad Alta: 
+VXS-438  69324480     47.97  20231109
+10    52.767
+
+Pedido de Prioridad Baja: 
+MTF-868  79464412     27.25  20231232
+5  20231232
+
+Pedido de Prioridad Alta: 
+OXP-732  23928045     80.06  20231222
+10    88.066
+
+Pedido de Prioridad Media: 
+OPJ-039  90365520     57.88  20231227
+Inactivo       20231227
+
+Pedido de Prioridad Media: 
+RDT-761  59407188      88.3  20231224
+Activo         20231224
+
+Pedido de Prioridad Media: 
+DIQ-718  43488351      60.6  20231126
+Activo         20231126
+
+Pedido de Prioridad Alta: 
+YUQ-590  77484838     28.58  20231120
+7   30.5806
+
+Pedido de Prioridad Alta: 
+OTH-462  79140840      72.5  20231111
+5    76.125
+
+Pedido de Prioridad Alta: 
+CSZ-863  95015539     55.93  20231206
+10    61.523
+
+Pedido de Prioridad Alta: 
+GXF-122  78757121     13.06  20231203
+10    14.366
+
+Pedido de Prioridad Media: 
+EUZ-452  90365520     20.45  20231104
+Activo         20231104
+
+Pedido de Prioridad Baja: 
+OPT-996  69639726     80.38  20231213
+5  20231213
+
+Pedido de Prioridad Baja: 
+MYC-756  88956889     72.72  20231121
+3  20231121
+
+Pedido de Prioridad Alta: 
+GBD-525  87800799     56.75  20231110
+5   59.5875
+
+Pedido de Prioridad Alta: 
+DON-719  24995742     23.73  20231226
+10    26.103
+
+Pedido de Prioridad Media: 
+VRR-793  43053402     24.01  20231104
+Inactivo       20231104
+
+Pedido de Prioridad Alta: 
+EBI-299  96258632     48.81  20231128
+5   51.2505
+
+Pedido de Prioridad Baja: 
+UWA-476  88956889     33.68  20231214
+3  20231214
+
+Pedido de Prioridad Media: 
+BRD-969  93160528     58.82  20231113
+Activo         20231113
+
+Pedido de Prioridad Alta: 
+HFC-845  13245501     31.78  20231123
+7   34.0046
+
+Pedido de Prioridad Alta: 
+UWA-476  26233063     83.86  20231111
+7   89.7302
+
+Pedido de Prioridad Alta: 
+QFP-254  32904023     34.22  20231207
+7   36.6154
+
+Pedido de Prioridad Media: 
+FQG-293  78078115     46.15  20231215
+Inactivo       20231215
+
+Pedido de Prioridad Alta: 
+AQS-362  16151792     91.74  20231226
+5    96.327
+
+Pedido de Prioridad Baja: 
+QTK-083  43488351     92.28  20231121
+5  20231121
+
+Pedido de Prioridad Baja: 
+YOT-530  89298238     21.28  20231131
+5  20231131
+
+Pedido de Prioridad Baja: 
+QTK-083  93160528     23.51  20231108
+3  20231108
+
+Pedido de Prioridad Alta: 
+JJN-837  11602775     93.21  20231210
+5   97.8705
+
+Pedido de Prioridad Baja: 
+GLC-370  79372768     33.48  20231211
+4  20231211
+
+Pedido de Prioridad Media: 
+SSD-176  43043986     95.69  20231203
+Activo         20231203
+
+Pedido de Prioridad Baja: 
+GXF-122  62566305     29.21  20231227
+4  20231227
+
+Pedido de Prioridad Baja: 
+MTF-868  32821689     91.77  20231110
+4  20231110
+
+Pedido de Prioridad Baja: 
+QRC-609  35565959     45.69  20231123
+3  20231123
+
+Pedido de Prioridad Media: 
+PJG-338  49087435     13.95  20231225
+Activo         20231225
+
+Pedido de Prioridad Media: 
+OTH-462  57263719     60.92  20231121
+Inactivo       20231121
+
+Pedido de Prioridad Media: 
+YJD-279  62324793     21.01  20231205
+Activo         20231205
+
+Pedido de Prioridad Alta: 
+LYZ-614  59407188     64.68  20231102
+5    67.914
+
+Pedido de Prioridad Alta: 
+CNQ-172  76388967     22.25  20231221
+5   23.3625
+
+Pedido de Prioridad Baja: 
+ZWF-661  13245501     84.08  20231114
+5  20231114
+
+Pedido de Prioridad Alta: 
+TMN-884  79140840     55.39  20231126
+10    60.929
+
+Pedido de Prioridad Media: 
+YJD-279  50375303     76.54  20231114
+Inactivo       20231114
+
+Pedido de Prioridad Media: 
+QIL-029  42928709        22  20231123
+Inactivo       20231123
+
+Pedido de Prioridad Baja: 
+QTK-083  55552996     58.52  20231208
+5  20231208
+
+Pedido de Prioridad Media: 
+YGV-332  86828079     41.94  20231118
+Activo         20231118
+
+Pedido de Prioridad Media: 
+ARS-231  78757121     57.47  20231223
+Activo         20231223
+
+Pedido de Prioridad Media: 
+FCN-617  37110873     60.66  20231108
+Activo         20231108
+
+Pedido de Prioridad Media: 
+TMN-884  50365593     16.35  20231217
+Inactivo       20231217
+
+Pedido de Prioridad Media: 
+ICX-503  87800799     25.06  20231217
+Activo         20231217
+
+Pedido de Prioridad Baja: 
+RBE-789  81114108     91.66  20231119
+3  20231119
+
+Pedido de Prioridad Baja: 
+UDR-957  54716824     98.13  20231119
+3  20231119
+
+Pedido de Prioridad Alta: 
+KJX-387  78757121     89.69  20231101
+10    98.659
+
+Pedido de Prioridad Baja: 
+KSO-608  26233063     28.05  20231127
+5  20231127
+
+Pedido de Prioridad Media: 
+CIM-038  86241107      12.9  20231205
+Activo         20231205
+
+Pedido de Prioridad Alta: 
+YOT-530  89298238     13.65  20231205
+7   14.6055
+
+Pedido de Prioridad Media: 
+BWD-036  24995742     51.71  20231105
+Inactivo       20231105
+
+Pedido de Prioridad Media: 
+OTW-288  15210391     56.66  20231223
+Inactivo       20231223
+
+Pedido de Prioridad Baja: 
+QUU-384  89429489     34.41  20231229
+4  20231229
+
+Pedido de Prioridad Baja: 
+BMJ-772  40348917      10.1  20231116
+3  20231116
+
+Pedido de Prioridad Baja: 
+GBJ-693  96659352     10.63  20231218
+4  20231218
+
+Pedido de Prioridad Baja: 
+TZY-323  16151792     45.23  20231122
+4  20231122
+
+Pedido de Prioridad Alta: 
+WLL-607  91897732     36.34  20231218
+7   38.8838
+
+Pedido de Prioridad Baja: 
+SSD-176  43877279     92.66  20231121
+4  20231121
+
+Pedido de Prioridad Media: 
+VDD-853  37110873     12.09  20231104
+Activo         20231104
+
+Pedido de Prioridad Alta: 
+VXS-438  15210391     23.43  20231125
+5   24.6015
+
+Pedido de Prioridad Media: 
+QFR-958  27912250     49.96  20231209
+Inactivo       20231209
+
+Pedido de Prioridad Alta: 
+AQS-362  73786035     96.75  20231224
+10   106.425
+
+Pedido de Prioridad Media: 
+ZEX-027  54716824     51.64  20231210
+Inactivo       20231210
+
+Pedido de Prioridad Media: 
+JJN-837  71984468     82.01  20231118
+Activo         20231118
+
+Pedido de Prioridad Alta: 
+XOA-735  78078115     13.26  20231104
+5    13.923
+
+Pedido de Prioridad Baja: 
+DFJ-952  35565959     85.53  20231215
+3  20231215
+
+Pedido de Prioridad Alta: 
+XBD-314  78922174     55.94  20231111
+5    58.737
+
+Pedido de Prioridad Baja: 
+ZVA-180  50365593      99.5  20231223
+5  20231223
+
+Pedido de Prioridad Media: 
+BZS-261  35565959     82.84  20231231
+Activo         20231231
+
+Pedido de Prioridad Alta: 
+KBY-991  58187172     50.98  20231130
+10    56.078
+
+Pedido de Prioridad Alta: 
+UTN-601  52097922     37.98  20231208
+10    41.778
+
+Pedido de Prioridad Alta: 
+XSD-310  87813843     27.79  20231116
+10    30.569
+
+Pedido de Prioridad Baja: 
+TKM-141  23928045     82.96  20231107
+5  20231107
+
+Pedido de Prioridad Media: 
+HFM-021  15210391     73.68  20231106
+Activo         20231106
+
+Pedido de Prioridad Baja: 
+MTF-868  88995291     89.06  20231221
+3  20231221
+
+Pedido de Prioridad Baja: 
+OQI-373  86402303     33.23  20231232
+4  20231232
+
+Pedido de Prioridad Alta: 
+FQG-293  62324793     23.97  20231101
+7   25.6479
+
+Pedido de Prioridad Media: 
+BTO-226  87800799     45.48  20231130
+Activo         20231130
+
+Pedido de Prioridad Alta: 
+DEN-125  17913944     27.85  20231211
+10    30.635
+
+Pedido de Prioridad Alta: 
+UTN-601  17972674      92.1  20231221
+10    101.31
+
+Pedido de Prioridad Baja: 
+SSE-115  79420973     68.58  20231214
+5  20231214
+
+Pedido de Prioridad Media: 
+OQI-373  71378466     16.16  20231218
+Inactivo       20231218
+
+Pedido de Prioridad Baja: 
+HLR-109  88995291     14.65  20231110
+5  20231110
+
+Pedido de Prioridad Baja: 
+OFS-384  83236386     23.29  20231226
+3  20231226
+
+Pedido de Prioridad Alta: 
+XZR-640  49087435     16.34  20231108
+10    17.974
+
+Pedido de Prioridad Alta: 
+TKM-141  32565207     89.94  20231127
+7   96.2358
+
+Pedido de Prioridad Alta: 
+DFF-034  81114108     47.34  20231227
+10    52.074
+
+Pedido de Prioridad Alta: 
+DEN-125  73786035     78.87  20231223
+5   82.8135
+
+Pedido de Prioridad Alta: 
+SNY-500  44229880     93.97  20231111
+10   103.367
+
+Pedido de Prioridad Baja: 
+CSZ-863  79901434     40.11  20231114
+4  20231114
+
+Pedido de Prioridad Media: 
+BWD-036  95751208      43.9  20231210
+Inactivo       20231210
+
+Pedido de Prioridad Media: 
+EVN-510  67418025     92.91  20231218
+Inactivo       20231218
+
+Pedido de Prioridad Alta: 
+KCO-488  35584593     11.29  20231214
+5   11.8545
+
+Pedido de Prioridad Media: 
+VCL-867  25171011     10.43  20231125
+Activo         20231125
+
+Pedido de Prioridad Baja: 
+YUQ-590  20864087     45.19  20231223
+5  20231223
+
+Pedido de Prioridad Media: 
+OFS-384  81114108      92.5  20231120
+Activo         20231120
+
+Pedido de Prioridad Alta: 
+TMJ-043  78078115     50.59  20231125
+5   53.1195
+
+Pedido de Prioridad Media: 
+OFS-384  64394265     60.06  20231211
+Activo         20231211
+
+Pedido de Prioridad Alta: 
+BRD-969  95751208     41.05  20231214
+5   43.1025
+
+Pedido de Prioridad Alta: 
+IDO-503  16151792     99.96  20231118
+7   106.957
+
+Pedido de Prioridad Baja: 
+GKG-558  26290971     30.01  20231112
+5  20231112
+
+Pedido de Prioridad Media: 
+YUQ-590  85949265     34.71  20231124
+Inactivo       20231124
+
+Pedido de Prioridad Alta: 
+TZY-323  45828535     42.05  20231221
+10    46.255
+
+Pedido de Prioridad Baja: 
+YZD-580  38913831     54.64  20231223
+4  20231223
+
+Pedido de Prioridad Alta: 
+CNN-411  42798099     10.18  20231214
+10    11.198
+
+Pedido de Prioridad Alta: 
+SSE-115  26976877     70.62  20231220
+10    77.682
+
+Pedido de Prioridad Baja: 
+VJI-529  33397650     48.94  20231109
+3  20231109
+
+Pedido de Prioridad Baja: 
+TXM-139  43043986     23.37  20231110
+5  20231110
+
+Pedido de Prioridad Alta: 
+EUZ-452  87800799     86.83  20231120
+10    95.513
+
+Pedido de Prioridad Media: 
+PPX-620  80048864     99.18  20231112
+Activo         20231112
+
+Pedido de Prioridad Baja: 
+UCX-285  22280452     22.16  20231106
+3  20231106
+
+Pedido de Prioridad Baja: 
+TZY-323  71984468     23.45  20231220
+3  20231220
+
+Pedido de Prioridad Alta: 
+QRC-609  87800799     11.18  20231226
+5    11.739
+
+Pedido de Prioridad Baja: 
+JFC-432  38913831     49.91  20231107
+4  20231107
+
+Pedido de Prioridad Media: 
+XLF-273  57690875     24.07  20231226
+Activo         20231226
+
+Pedido de Prioridad Media: 
+CIM-038  94080926     98.72  20231214
+Inactivo       20231214
+
+Pedido de Prioridad Baja: 
+LWG-915  23928045     14.08  20231231
+3  20231231
+
+Pedido de Prioridad Baja: 
+ICX-503  66409237     66.17  20231233
+3  20231233
+
+Pedido de Prioridad Media: 
+BXY-119  13245501     37.11  20231110
+Activo         20231110
+
+Pedido de Prioridad Alta: 
+HFC-845  86241107     89.32  20231124
+7   95.5724
+
+Pedido de Prioridad Baja: 
+YOT-530  57263719     99.83  20231130
+4  20231130
+
+Pedido de Prioridad Alta: 
+KQQ-136  26976877     53.42  20231114
+7   57.1594
+
+Pedido de Prioridad Media: 
+RDT-761  19829266     72.41  20231215
+Activo         20231215
+
+Pedido de Prioridad Media: 
+FQG-293  69975105     38.27  20231105
+Activo         20231105
+
+Pedido de Prioridad Alta: 
+PFD-286  76388967     80.09  20231222
+7   85.6963
+
+Pedido de Prioridad Media: 
+DIQ-718  69324480      92.4  20231126
+Activo         20231126
+
+Pedido de Prioridad Alta: 
+QIL-029  13245501     24.52  20231115
+10    26.972
+
+Pedido de Prioridad Alta: 
+JXD-139  89298238     83.68  20231110
+5    87.864
+
+Pedido de Prioridad Media: 
+QFP-254  73185299     88.88  20231110
+Activo         20231110
+
+Pedido de Prioridad Baja: 
+XBD-314  78922174     20.42  20231217
+3  20231217
+
+Pedido de Prioridad Alta: 
+TMJ-043  11602775     69.62  20231220
+7   74.4934
+
+Pedido de Prioridad Baja: 
+BMJ-772  12663268     13.35  20231233
+3  20231233
+
+Pedido de Prioridad Alta: 
+KDA-627  60574154     75.06  20231114
+10    82.566
+
+Pedido de Prioridad Media: 
+FLW-631  38913831     52.17  20231202
+Activo         20231202
+
+Pedido de Prioridad Baja: 
+OTH-462  57263719     36.53  20231222
+5  20231222
+
+Pedido de Prioridad Media: 
+RBE-789  86402303     80.08  20231206
+Inactivo       20231206
+
+Pedido de Prioridad Baja: 
+KQA-580  48184351     49.68  20231123
+3  20231123
+
+Pedido de Prioridad Alta: 
+ZVA-180  54761731     97.93  20231110
+7   104.785
+
+Pedido de Prioridad Baja: 
+VRR-793  85949265     92.16  20231221
+4  20231221
+
+Pedido de Prioridad Media: 
+DFJ-952  78078115     69.46  20231104
+Activo         20231104
+
+Pedido de Prioridad Media: 
+DON-719  15210391     51.48  20231215
+Activo         20231215
+
+Pedido de Prioridad Baja: 
+UXG-019  86241107     91.18  20231222
+3  20231222
+
+Pedido de Prioridad Media: 
+YUQ-590  64394265     65.62  20231131
+Activo         20231131
+
+Pedido de Prioridad Baja: 
+DOV-560  76388967     79.03  20231111
+3  20231111
+
+Pedido de Prioridad Baja: 
+ZWF-661  77191257     55.83  20231206
+5  20231206
+
+Pedido de Prioridad Alta: 
+HFM-021  29337157     59.07  20231230
+5   62.0235
+
+Pedido de Prioridad Media: 
+AWB-345  93845419     47.94  20231129
+Activo         20231129
+
+Pedido de Prioridad Baja: 
+HFM-021  86402303     66.93  20231227
+3  20231227
+
+Pedido de Prioridad Alta: 
+BCK-361  40112594     78.58  20231222
+7   84.0806
+
+Pedido de Prioridad Alta: 
+FVB-607  54761731     89.56  20231216
+7   95.8292
+
+Pedido de Prioridad Alta: 
+LDR-510  87813843     27.93  20231222
+5   29.3265
+
+Pedido de Prioridad Media: 
+HFC-845  36008913     80.77  20231231
+Activo         20231231
+
+Pedido de Prioridad Media: 
+QVJ-982  79372768     58.98  20231231
+Inactivo       20231231
+
+Pedido de Prioridad Alta: 
+YEZ-591  63437380     15.91  20231202
+10    17.501
+
+Pedido de Prioridad Media: 
+UXG-019  19829266     67.82  20231202
+Activo         20231202
+
+Pedido de Prioridad Alta: 
+YYK-309  64394265     12.42  20231120
+7   13.2894
+
+Pedido de Prioridad Baja: 
+KWP-672  42157219     82.82  20231207
+4  20231207
+
+Pedido de Prioridad Alta: 
+KWP-672  77191257     64.99  20231203
+5   68.2395
+
+Pedido de Prioridad Media: 
+HFM-021  84165595     36.46  20231212
+Inactivo       20231212
+
+Pedido de Prioridad Alta: 
+OXP-732  91897732     62.52  20231211
+5    65.646
+
+Pedido de Prioridad Baja: 
+FVB-607  89863424     80.02  20231123
+5  20231123
+
+Pedido de Prioridad Media: 
+GXF-122  79420973     58.79  20231109
+Activo         20231109
+
+Pedido de Prioridad Baja: 
+VZV-827  54761731     91.85  20231129
+5  20231129
+
+Pedido de Prioridad Baja: 
+WZD-331  29337157     39.23  20231104
+3  20231104
+
+Pedido de Prioridad Baja: 
+BXY-119  31193794     58.69  20231121
+5  20231121
+
+Pedido de Prioridad Alta: 
+PFD-286  91897732     59.42  20231101
+5    62.391
+
+Pedido de Prioridad Media: 
+QUU-384  43877279     39.33  20231120
+Inactivo       20231120
+
+Pedido de Prioridad Alta: 
+UXG-019  89429489      29.4  20231208
+10     32.34
+
+Pedido de Prioridad Media: 
+EBI-299  89148118     21.27  20231118
+Inactivo       20231118
+
+Pedido de Prioridad Baja: 
+ISU-815  32821689     76.93  20231130
+5  20231130
+
+Pedido de Prioridad Media: 
+VCL-867  89429489      76.4  20231112
+Activo         20231112
+
+Pedido de Prioridad Media: 
+TZY-323  26290971      36.7  20231111
+Inactivo       20231111
+
+Pedido de Prioridad Baja: 
+JFC-432  26233063     56.84  20231126
+3  20231126
+
+Pedido de Prioridad Alta: 
+SSD-176  55552996     55.38  20231127
+7   59.2566
+
+Pedido de Prioridad Baja: 
+XSD-310  52097922      80.5  20231221
+3  20231221
+
+Pedido de Prioridad Alta: 
+HLR-109  36380447     60.53  20231126
+10    66.583
+
+Pedido de Prioridad Alta: 
+XLF-273  22777006     47.88  20231220
+10    52.668
+
+Pedido de Prioridad Alta: 
+LDR-510  85949265     47.57  20231102
+10    52.327
+
+Pedido de Prioridad Baja: 
+YJD-279  17913944     21.04  20231123
+5  20231123
+
+Pedido de Prioridad Baja: 
+UWA-476  33713901     31.55  20231220
+5  20231220
+
+Pedido de Prioridad Media: 
+SSD-176  78078115     98.88  20231224
+Activo         20231224
+
+Pedido de Prioridad Media: 
+DUG-251  93160528     40.37  20231221
+Inactivo       20231221
+
+Pedido de Prioridad Media: 
+SJQ-827  50375303     33.16  20231109
+Activo         20231109
+
+Pedido de Prioridad Media: 
+FVQ-662  31611146     24.45  20231105
+Activo         20231105
+
+Pedido de Prioridad Baja: 
+VXS-438  50375303     79.03  20231123
+3  20231123
+
+Pedido de Prioridad Baja: 
+KJX-387  73535476     23.31  20231114
+3  20231114
+
+Pedido de Prioridad Baja: 
+FEG-454  86241107     26.45  20231106
+3  20231106
+
+Pedido de Prioridad Alta: 
+VJI-529  69324480     16.49  20231119
+7   17.6443
+
+Pedido de Prioridad Baja: 
+VJI-529  35565959     10.85  20231224
+3  20231224
+
+Pedido de Prioridad Baja: 
+RDT-761  42798099     90.23  20231109
+5  20231109
+
+Pedido de Prioridad Baja: 
+BRD-969  73914283     18.15  20231221
+5  20231221
+
+Pedido de Prioridad Media: 
+OQI-373  87813843     10.44  20231230
+Inactivo       20231230
+
+Pedido de Prioridad Baja: 
+TZY-323  77191257     12.24  20231110
+4  20231110
+
+Pedido de Prioridad Media: 
+AFL-718  49087435     59.95  20231228
+Inactivo       20231228
+
+Pedido de Prioridad Baja: 
+VVS-017  33713901     77.23  20231112
+5  20231112
+
+Pedido de Prioridad Media: 
+DFJ-952  25171011     14.12  20231202
+Activo         20231202
+
+Pedido de Prioridad Media: 
+JXD-139  35565959     89.66  20231205
+Inactivo       20231205
+
+Pedido de Prioridad Alta: 
+AVM-258  62566305     95.09  20231208
+10   104.599
+
+Pedido de Prioridad Alta: 
+QIL-029  93845419     42.56  20231223
+10    46.816
+
+Pedido de Prioridad Baja: 
+JCW-489  13245501     24.91  20231132
+4  20231132
+
+Pedido de Prioridad Baja: 
+RBE-789  32904023     76.21  20231105
+4  20231105
+
+Pedido de Prioridad Alta: 
+PJG-338  78078115     79.48  20231127
+5    83.454
+
+Pedido de Prioridad Media: 
+DUG-251  99842319     75.64  20231111
+Inactivo       20231111
+
+Pedido de Prioridad Baja: 
+KQQ-136  96659352     16.14  20231118
+4  20231118
+
+Pedido de Prioridad Alta: 
+SNY-500  45783712     29.51  20231128
+5   30.9855
+
+Pedido de Prioridad Media: 
+CNQ-172  62566305     33.75  20231215
+Activo         20231215
+
+Pedido de Prioridad Alta: 
+KJX-387  13245501     26.03  20231222
+7   27.8521
+
+Pedido de Prioridad Media: 
+DUG-251  81114108     44.39  20231120
+Inactivo       20231120
+
+Pedido de Prioridad Alta: 
+SAM-013  79372768     10.67  20231122
+10    11.737
+
+Pedido de Prioridad Alta: 
+ZEX-027  77191257     45.48  20231223
+7   48.6636
+
+Pedido de Prioridad Alta: 
+OTW-288  64394265     45.45  20231116
+7   48.6315
+
+Pedido de Prioridad Baja: 
+TXM-139  48184351     91.09  20231130
+4  20231130
+
+Pedido de Prioridad Baja: 
+XBD-314  62324793      37.7  20231130
+5  20231130
+
+Pedido de Prioridad Baja: 
+YUQ-590  26976877     15.03  20231125
+3  20231125
+
+Pedido de Prioridad Baja: 
+FQG-293  95161027     54.79  20231212
+4  20231212
+
+Pedido de Prioridad Media: 
+OFS-384  38637282     99.19  20231209
+Activo         20231209
+
+Pedido de Prioridad Baja: 
+DON-719  69639726     23.58  20231116
+4  20231116
+
+Pedido de Prioridad Media: 
+TZY-323  50365593     40.69  20231223
+Activo         20231223
+
+Pedido de Prioridad Media: 
+YYU-726  77642521      86.8  20231108
+Inactivo       20231108
+
+Pedido de Prioridad Media: 
+SAM-013  32904023     75.74  20231129
+Inactivo       20231129
+
+Pedido de Prioridad Alta: 
+FLJ-040  27912250     81.66  20231108
+10    89.826
+
+Pedido de Prioridad Alta: 
+JFC-432  84165595     47.11  20231119
+10    51.821
+
+Pedido de Prioridad Baja: 
+TKM-141  90237332     95.93  20231229
+3  20231229
+
+Pedido de Prioridad Baja: 
+ONB-903  53166028     84.48  20231106
+4  20231106
+
+Pedido de Prioridad Media: 
+HFM-021  69975105     19.11  20231219
+Inactivo       20231219
+
+Pedido de Prioridad Media: 
+AVM-258  77191257     38.97  20231205
+Activo         20231205
+
+Pedido de Prioridad Baja: 
+MMA-577  52097922     46.18  20231212
+5  20231212
+
+Pedido de Prioridad Alta: 
+FVQ-662  43053402     87.99  20231216
+10    96.789
+
+Pedido de Prioridad Media: 
+ICX-503  89298238     71.68  20231119
+Inactivo       20231119
+
+Pedido de Prioridad Alta: 
+GBJ-693  45877001     58.21  20231114
+5   61.1205
+
+Pedido de Prioridad Media: 
+FEG-454  67418025     47.02  20231115
+Inactivo       20231115
+
+Pedido de Prioridad Media: 
+QFP-254  12663268     97.73  20231207
+Activo         20231207
+
+Pedido de Prioridad Media: 
+QVJ-982  41036366     91.92  20231204
+Inactivo       20231204
+
+Pedido de Prioridad Media: 
+OTH-462  89863424     86.24  20231216
+Activo         20231216
+
+Pedido de Prioridad Alta: 
+EBI-299  40112594     57.53  20231227
+10    63.283
+
+Pedido de Prioridad Media: 
+QHC-492  84165595     61.79  20231231
+Activo         20231231
+
+Pedido de Prioridad Baja: 
+YMU-875  45828535     26.29  20231119
+3  20231119
+
+Pedido de Prioridad Alta: 
+KQQ-136  32904023     84.75  20231129
+10    93.225
+
+Pedido de Prioridad Baja: 
+TMJ-043  69975105     28.54  20231235
+5  20231235
+
+Pedido de Prioridad Baja: 
+QRC-609  89863424     54.18  20231134
+5  20231134
+
+Pedido de Prioridad Alta: 
+ZAF-449  99842319      85.9  20231230
+10     94.49
+
+Pedido de Prioridad Baja: 
+BXY-119  89429489     97.84  20231109
+3  20231109
+
+Pedido de Prioridad Media: 
+CRU-009  66409237     73.53  20231223
+Activo         20231223
+
+Pedido de Prioridad Media: 
+OQI-373  78922174     36.75  20231227
+Inactivo       20231227
+
+Pedido de Prioridad Alta: 
+VZV-827  45783712      99.6  20231103
+10    109.56
+
+Pedido de Prioridad Alta: 
+YMU-875  45783712     25.28  20231110
+5    26.544
+
+Pedido de Prioridad Media: 
+FVQ-662  40112594     39.21  20231131
+Activo         20231131
+
+Pedido de Prioridad Media: 
+HLR-109  44229880     54.48  20231230
+Inactivo       20231230
+
+Pedido de Prioridad Baja: 
+YYU-726  67418025     88.13  20231128
+4  20231128
+
+Pedido de Prioridad Baja: 
+VVS-017  50365593     31.97  20231121
+3  20231121
+
+Pedido de Prioridad Baja: 
+CRU-009  54716824     38.15  20231126
+4  20231126
+
+Pedido de Prioridad Media: 
+NSR-955  93845419     77.86  20231228
+Activo         20231228
+
+Pedido de Prioridad Media: 
+YGV-332  77484838      12.6  20231125
+Inactivo       20231125
+
+Pedido de Prioridad Media: 
+VXS-438  58187172     91.35  20231219
+Activo         20231219
+
+Pedido de Prioridad Alta: 
+XLF-273  17913944      96.8  20231210
+7   103.576
+
+Pedido de Prioridad Baja: 
+ZWF-661  57263719     31.02  20231215
+4  20231215
+
+Pedido de Prioridad Baja: 
+AQS-362  16151792     61.14  20231224
+3  20231224
+
+Pedido de Prioridad Media: 
+OQI-373  95161027     51.22  20231212
+Inactivo       20231212
+
+Pedido de Prioridad Baja: 
+VDD-853  90365520     34.35  20231120
+3  20231120
+
+Pedido de Prioridad Media: 
+JXD-139  79140840     73.27  20231210
+Activo         20231210
+
+Pedido de Prioridad Alta: 
+YJD-279  97403853     62.82  20231210
+10    69.102
+
+Pedido de Prioridad Alta: 
+JDC-028  87800799     48.65  20231219
+10    53.515
+
+Pedido de Prioridad Baja: 
+EUZ-452  79372768     29.29  20231117
+4  20231117
+
+Pedido de Prioridad Media: 
+OBI-353  73914283     12.11  20231228
+Activo         20231228
+
+Pedido de Prioridad Baja: 
+VCL-867  81114108     79.13  20231227
+4  20231227
+
+Pedido de Prioridad Media: 
+TXM-139  53166028     37.34  20231123
+Inactivo       20231123
+
+Pedido de Prioridad Alta: 
+RDT-761  45877001     33.25  20231115
+5   34.9125
+
+Pedido de Prioridad Media: 
+XTE-383  57690875     40.27  20231212
+Activo         20231212
+
+Pedido de Prioridad Media: 
+SSD-176  45783712     59.17  20231208
+Activo         20231208
+
+Pedido de Prioridad Baja: 
+GBJ-693  97403853     44.45  20231116
+5  20231116
+
+Pedido de Prioridad Baja: 
+XSD-310  31611146     84.14  20231111
+4  20231111
+
+Pedido de Prioridad Alta: 
+XSD-310  71378466      25.6  20231115
+5     26.88
+
+Pedido de Prioridad Baja: 
+RAH-420  15561764     46.41  20231218
+4  20231218
+
+Pedido de Prioridad Baja: 
+AVM-258  73185299     96.03  20231206
+3  20231206
+
+Pedido de Prioridad Media: 
+TZY-323  95161027     63.39  20231227
+Inactivo       20231227
+
+Pedido de Prioridad Media: 
+DOV-560  57263719     62.54  20231210
+Activo         20231210
+
+Pedido de Prioridad Media: 
+III-576  49087435     21.61  20231216
+Inactivo       20231216
+
+Pedido de Prioridad Baja: 
+DFJ-952  40348917     79.84  20231117
+4  20231117
+
+Pedido de Prioridad Alta: 
+QRC-609  79140840     35.54  20231207
+5    37.317
+
+Pedido de Prioridad Alta: 
+VRR-793  40348917     36.03  20231109
+7   38.5521
+
+Pedido de Prioridad Baja: 
+LWG-915  27912250     48.61  20231208
+5  20231208
+
+Pedido de Prioridad Alta: 
+GLC-370  42928709     21.81  20231223
+5   22.9005
+
+Pedido de Prioridad Media: 
+SPR-580  20864087     21.66  20231111
+Inactivo       20231111
+
+Pedido de Prioridad Alta: 
+BWD-036  77191257     83.88  20231212
+10    92.268
+
+Pedido de Prioridad Media: 
+XZG-521  52097922      27.2  20231229
+Activo         20231229
+
+Pedido de Prioridad Media: 
+OTS-581  54761731     67.73  20231213
+Inactivo       20231213
+
+Pedido de Prioridad Media: 
+AQS-362  15210391     72.28  20231212
+Activo         20231212
+
+Pedido de Prioridad Media: 
+OTW-288  94080926      61.9  20231206
+Inactivo       20231206
+
+Pedido de Prioridad Alta: 
+TXM-139  79901434     79.85  20231114
+7   85.4395
+
+Pedido de Prioridad Baja: 
+BWD-036  80048864        35  20231226
+3  20231226
+
+Pedido de Prioridad Baja: 
+XZG-521  26976877     79.34  20231205
+4  20231205
+
+Pedido de Prioridad Alta: 
+SPR-580  94080926      76.3  20231209
+5    80.115
+
+Pedido de Prioridad Alta: 
+OPJ-039  62324793     27.36  20231105
+7   29.2752
+
+Pedido de Prioridad Media: 
+ZWF-661  32565207        10  20231205
+Inactivo       20231205
+
+Pedido de Prioridad Media: 
+KBY-991  45877001     21.22  20231205
+Inactivo       20231205
+
