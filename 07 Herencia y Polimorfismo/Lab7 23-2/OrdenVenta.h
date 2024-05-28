@@ -8,12 +8,14 @@
 
 #ifndef ORDENVENTA_H
 #define ORDENVENTA_H
-
+#include<fstream>
+using namespace std;
 #include "Pedido.h"
 
 class OrdenVenta {
 public:
-    
+    void leerOrden(ifstream &,char );
+    void imprimirOrden(ofstream &);
 private:
     Pedido *ptr_orden;
 };

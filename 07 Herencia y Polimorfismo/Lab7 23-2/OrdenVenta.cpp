@@ -7,8 +7,22 @@
  */
 
 #include "OrdenVenta.h"
+#include "PrioridadAlta.h"
+#include "PrioridadMedia.h"
+#include "PrioridadBaja.h"
 
+void OrdenVenta::leerOrden(ifstream &arch,char tipo){
+    if(tipo == 'A'){
+        ptr_orden = new PrioridadAlta;
+    }else if(tipo == 'M'){
+        ptr_orden = new PrioridadMedia;
+    }else{
+        ptr_orden = new PrioridadBaja;
+    }
+    ptr_orden->lee(arch);
+}
 
-
-
+void OrdenVenta::imprimirOrden(ofstream &arch){
+    ptr_orden->imprime(arch);
+}
 

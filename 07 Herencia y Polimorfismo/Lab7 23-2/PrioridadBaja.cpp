@@ -28,4 +28,13 @@ int PrioridadBaja::GetDias_espera() const {
     return dias_espera;
 }
 
+void PrioridadBaja::lee(ifstream &arch){
+    Pedido::lee(arch);
+    arch>>this->dias_espera;
+    arch.get(); //salto de linea por si aca
+}
+
+void PrioridadBaja::imprime(ofstream &arch){
+    Pedido::imprime(arch);
+}
 

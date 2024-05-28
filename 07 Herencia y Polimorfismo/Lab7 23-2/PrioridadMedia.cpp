@@ -36,3 +36,21 @@ void PrioridadMedia::GetDescripcion(char *desc) const {
     else strcpy(desc, descripcion);
 }
 
+void PrioridadMedia::lee(ifstream &arch){
+    Pedido::lee(arch);
+    int estado;
+    arch>>estado;
+    if(estado == 0){
+        char desc[7] = "Activo";
+        this->SetDescripcion(desc);
+    }else{
+        char desc[9] = "Inactivo";
+        this->SetDescripcion(desc);
+    }
+    arch.get(); //salto por si aca
+}
+
+void PrioridadMedia::imprime(ofstream &arch){
+    Pedido::imprime(arch);
+}
+

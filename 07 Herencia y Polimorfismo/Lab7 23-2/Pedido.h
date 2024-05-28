@@ -8,6 +8,10 @@
 
 #ifndef PEDIDO_H
 #define PEDIDO_H
+#include<iostream>
+#include<fstream>
+#include<iomanip>
+using namespace std;
 
 class Pedido {
 public:
@@ -25,6 +29,8 @@ public:
     int GetDni_cliente() const;
     void SetCodigo(char* cod);
     void GetCodigo(char *cod) const;
+    virtual void lee(ifstream & );
+    virtual void imprime(ofstream&);
 private:
     char *codigo;
     int dni_cliente;

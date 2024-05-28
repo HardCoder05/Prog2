@@ -28,5 +28,13 @@ double PrioridadAlta::GetRecargo() const {
     return recargo;
 }
 
+void PrioridadAlta::lee(ifstream &arch){
+    Pedido::lee(arch);
+    arch>>this->recargo;
+    arch.get(); //por si acaso salto de linea
+}
 
+void PrioridadAlta::imprime(ofstream &arch){
+    Pedido::imprime(arch);
+}
 

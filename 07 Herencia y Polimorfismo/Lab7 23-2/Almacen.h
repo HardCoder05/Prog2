@@ -14,8 +14,10 @@
 class Almacen {
 public:
     Almacen();
+    void cargar_pedidos(const char*);
+    void imprimir_ordenes_venta(const char*);
 private:
-    OrdenVenta ordenes[200]{};
+    OrdenVenta ordenes[600]{};
     int cantidad_ordenes;
 };
 

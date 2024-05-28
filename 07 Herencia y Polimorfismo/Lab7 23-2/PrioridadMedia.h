@@ -8,10 +8,11 @@
 
 #ifndef PRIORIDADMEDIA_H
 #define PRIORIDADMEDIA_H
-
+#include<fstream>
+using namespace std;
 #include "Pedido.h"
 
-class PrioridadMedia : public Pedido{
+class PrioridadMedia:public Pedido{
 public:
     PrioridadMedia();
     virtual ~PrioridadMedia();
@@ -19,6 +20,8 @@ public:
     int GetNueva_fecha_entrega() const;
     void SetDescripcion(char* desc);
     void GetDescripcion(char *desc) const;
+    void lee(ifstream &);
+    void imprime(ofstream &);
 private:
     char *descripcion;
     int nueva_fecha_entrega;

@@ -7,7 +7,6 @@
  */
 
 #include <cstring>
-
 #include "Pedido.h"
 
 Pedido::Pedido() {
@@ -74,5 +73,30 @@ void Pedido::SetCodigo(char* cod) {
 void Pedido::GetCodigo(char *cod) const {
     if(codigo == nullptr) cod[0] = 0;
     else strcpy(cod, codigo);
+}
+
+void Pedido::lee(ifstream &arch){
+    char codPed[8], c;
+    int dni, dd, mm, aa;
+    double subtot;
+    
+    arch.getline(codPed, 8 , ',');
+    arch>>dni;
+    arch.get(); //coma
+    arch>>subtot;
+    arch>>c>>aa>>c>>mm>>c>>dd>>c;
+    
+    this->SetCodigo(codPed);
+    this->dni_cliente = dni;
+    this->subtotal = subtot;
+    this->fecha = aa*10000+mm*100+dd;
+}
+
+void Pedido::imprime(ofstream &arch){
+    char cod[8];
+    this->GetCodigo(cod);
+    
+    arch<<cod<<setw(10)<<this->dni_cliente<<setw(10)<<this->subtotal<<setw(10)
+        <<this->fecha<<endl;
 }
 
