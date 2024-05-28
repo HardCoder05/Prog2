@@ -35,6 +35,8 @@ void PrioridadAlta::lee(ifstream &arch){
 }
 
 void PrioridadAlta::imprime(ofstream &arch){
+    arch<<"Pedido de Prioridad Alta: "<<endl;
     Pedido::imprime(arch);
+    arch<<recargo<<setw(10)<<Pedido::GetTotal()<<endl<<endl;
 }
 

@@ -40,7 +40,7 @@ void PrioridadMedia::lee(ifstream &arch){
     Pedido::lee(arch);
     int estado;
     arch>>estado;
-    if(estado == 0){
+    if(estado == 1){
         char desc[7] = "Activo";
         this->SetDescripcion(desc);
     }else{
@@ -51,6 +51,10 @@ void PrioridadMedia::lee(ifstream &arch){
 }
 
 void PrioridadMedia::imprime(ofstream &arch){
+    arch<<"Pedido de Prioridad Media: "<<endl;
     Pedido::imprime(arch);
+    char desc[10];
+    GetDescripcion(desc);
+    arch<<left<<setw(15)<<desc<<Pedido::GetTotal()<<right<<endl<<endl;
 }
 

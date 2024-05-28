@@ -35,6 +35,8 @@ void PrioridadBaja::lee(ifstream &arch){
 }
 
 void PrioridadBaja::imprime(ofstream &arch){
+    arch<<"Pedido de Prioridad Baja: "<<endl;
     Pedido::imprime(arch);
+    arch<<dias_espera<<setw(10)<<Pedido::GetTotal()<<endl<<endl;
 }
 
