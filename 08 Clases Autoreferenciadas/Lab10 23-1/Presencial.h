@@ -9,20 +9,23 @@
 #ifndef PRESENCIAL_H
 #define PRESENCIAL_H
 
+#include <fstream>
+using namespace std;
 #include "Alumno.h"
 
-class Presencial : public Alumno {
+class Presencial : public Alumno{
+private:
+    double recargo;
+    double total;
 public:
     Presencial();
-    Presencial(const Presencial& orig);
-    virtual ~Presencial();
     void SetTotal(double total);
     double GetTotal() const;
     void SetRecargo(double recargo);
     double GetRecargo() const;
-private:
-    double recargo;
-    double total;
+    void lee(ifstream &);
+    void actualizaTotal(double);
+    void imprime(ofstream&);
 };
 
 #endif /* PRESENCIAL_H */

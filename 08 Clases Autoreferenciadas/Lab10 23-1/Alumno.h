@@ -9,27 +9,33 @@
 #ifndef ALUMNO_H
 #define ALUMNO_H
 
+#include <fstream>
+using namespace std;
+
 class Alumno {
-public:
-    Alumno();
-    Alumno(const Alumno& orig);
-    virtual ~Alumno();
-    void SetTotal(double total);
-    double GetTotal() const;
-    void SetCreditos(double creditos);
-    double GetCreditos() const;
-    void SetEscala(int escala);
-    int GetEscala() const;
-    void SetNombre(char* nomb);
-    void GetNombre(char *nomb) const;
-    void SetCodigo(int codigo);
-    int GetCodigo() const;
 private:
     int codigo;
     char *nombre;
-    int escala;
+    int escala ;
     double creditos;
     double total;
+public:
+    Alumno();
+    virtual ~Alumno();
+    void SetTotal(double total);
+    double GetTotal() const;
+    void SetEscala(int escala);
+    int GetEscala() const;
+    void SetNombre(const char* nombre);
+    void GetNombre(char*) const;
+    void SetCodigo(int codigo);
+    int GetCodigo() const;
+    void SetCreditos(double creditos);
+    double GetCreditos() const;
+
+    virtual void lee(ifstream &);
+    virtual void actualizaTotal(double);
+    virtual void imprime(ofstream&);
 };
 
 #endif /* ALUMNO_H */

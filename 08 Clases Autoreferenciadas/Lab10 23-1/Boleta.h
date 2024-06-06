@@ -9,16 +9,28 @@
 #ifndef BOLETA_H
 #define BOLETA_H
 
+#include <fstream>
 #include "Alumno.h"
 
 class Boleta {
+private:
+    class Alumno *pboleta;
 public:
     Boleta();
-    Boleta(const Boleta& orig);
     virtual ~Boleta();
-private:
-    Alumno *pboleta;
+    void asignaMemoria(char tipo);
+
+    void leeDatos(ifstream &arch) const;
+    void actualizaBoleta(double);
+    void imprimeBoleta(ofstream&) const;
+    bool operator >(const class Boleta &dato)const;
+    int GetCodigo()const;
+    int GetEscala()const;
+    void SetNull();
 };
+
+void operator >>(ifstream &arch, class Boleta &boleta);
+void operator <<(ofstream &arch, const class Boleta &boleta);
 
 #endif /* BOLETA_H */
 

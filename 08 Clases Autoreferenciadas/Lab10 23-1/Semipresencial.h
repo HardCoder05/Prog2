@@ -9,20 +9,23 @@
 #ifndef SEMIPRESENCIAL_H
 #define SEMIPRESENCIAL_H
 
+#include <fstream>
+using namespace std;
 #include "Alumno.h"
 
-class Semipresencial : public Alumno {
+class Semipresencial: public Alumno {
+private:
+    double descuento;
+    double total;
 public:
     Semipresencial();
-    Semipresencial(const Semipresencial& orig);
-    virtual ~Semipresencial();
     void SetTotal(double total);
     double GetTotal() const;
     void SetDescuento(double descuento);
     double GetDescuento() const;
-private:
-    double descuento;
-    double total;
+    void lee(ifstream&);
+    void actualizaTotal(double);
+    void imprime(ofstream&);
 };
 
 #endif /* SEMIPRESENCIAL_H */

@@ -17,7 +17,7 @@ public:
     Nodo();
     Nodo(const Nodo& orig);
     virtual ~Nodo();
-    friend Arbol;
+    friend class Arbol;
 private:
     Boleta dboleta;
     Nodo *izq;

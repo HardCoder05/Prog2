@@ -10,17 +10,15 @@
 #define ESCALA_H
 
 class Escala {
+private:
+    int codigo;
+    double precio;
 public:
     Escala();
-    Escala(const Escala& orig);
-    virtual ~Escala();
     void SetPrecio(double precio);
     double GetPrecio() const;
     void SetCodigo(int codigo);
     int GetCodigo() const;
-private:
-    int codigo;
-    double precio;
 };
 
 #endif /* ESCALA_H */

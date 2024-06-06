@@ -6,6 +6,10 @@
  * Created on 6 de junio de 2024, 12:41 PM
  */
 
+#include <iostream>
+#include <fstream>
+#include <iomanip>
+using namespace std;
 #include <cstring>
 #include "Alumno.h"
 
@@ -14,11 +18,8 @@ Alumno::Alumno() {
     total = 0;
 }
 
-Alumno::Alumno(const Alumno& orig) {
-}
-
 Alumno::~Alumno() {
-    if(nombre) delete []nombre;
+    if(nombre!=nullptr) delete nombre;
 }
 
 void Alumno::SetTotal(double total) {
@@ -27,14 +28,6 @@ void Alumno::SetTotal(double total) {
 
 double Alumno::GetTotal() const {
     return total;
-}
-
-void Alumno::SetCreditos(double creditos) {
-    this->creditos = creditos;
-}
-
-double Alumno::GetCreditos() const {
-    return creditos;
 }
 
 void Alumno::SetEscala(int escala) {
@@ -64,5 +57,33 @@ int Alumno::GetCodigo() const {
     return codigo;
 }
 
+void Alumno::SetCreditos(double creditos) {
+    this->creditos = creditos;
+}
 
+double Alumno::GetCreditos() const {
+    return creditos;
+}
+
+void Alumno::lee(ifstream&arch) {
+    char nomb[60],c;
+    arch>>codigo;
+    arch.get();
+    arch.getline(nomb,60,',');
+    SetNombre(nomb);
+    arch>>escala>>c>>creditos;
+    arch.get();
+}
+
+void Alumno::actualizaTotal(double pago) {
+    total = pago; // también SetTotal(pago);
+}
+
+void Alumno::imprime(ofstream&arch) {
+    arch.precision(2);
+    arch<<fixed;
+    arch<<left<<setw(10)<<codigo<<setw(40)<<nombre<<right<<setw(3)<<escala
+        <<setw(12)<<creditos;
+
+}
 

@@ -12,12 +12,14 @@
 #include "Arbol.h"
 
 class Tesoreria {
-public:
-    Tesoreria();
-    Tesoreria(const Tesoreria& orig);
-    virtual ~Tesoreria();
 private:
-    Arbol aboleta;
+    class Arbol aboleta;
+public:
+    void cargaEscalas(const char *);
+    void cargaAlumnos(const char *);
+    void actualizaBoleta(const char *);
+    void imprimeBoleta(const char *);
+    void imprimeLinea(ofstream &, char, int);
 };
 
 #endif /* TESORERIA_H */
