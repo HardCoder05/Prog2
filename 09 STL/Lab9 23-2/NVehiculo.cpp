@@ -14,7 +14,16 @@ NVehiculo::NVehiculo() {
     unidad = nullptr;
 }
 
+NVehiculo::NVehiculo(const NVehiculo& orig){ //este si es necesario
+    unidad = nullptr;
+    *this = orig;
+}
+
 NVehiculo::~NVehiculo() {
+}
+
+void NVehiculo::operator =(const NVehiculo &nveh){
+    unidad = nveh.unidad;
 }
 
 void NVehiculo::leer(ifstream& arch) {

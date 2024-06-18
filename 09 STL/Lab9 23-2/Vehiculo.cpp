@@ -14,9 +14,9 @@ Vehiculo::Vehiculo() {
     actcarga = 0;
 }
 
-Vehiculo::Vehiculo(const Vehiculo& orig) {
-//    placa = nullptr;
-//    *this = orig;
+Vehiculo::Vehiculo(const Vehiculo& orig) { //este no es necesario
+    placa = nullptr;
+    *this = orig;
 }
 
 Vehiculo::~Vehiculo() {
@@ -56,6 +56,14 @@ void Vehiculo::SetCliente(int cliente) {
 
 int Vehiculo::GetCliente() const {
     return cliente;
+}
+
+void Vehiculo::operator =(const Vehiculo &veh){
+    char placaa[8];
+    cliente = veh.cliente;
+    maxcarga = veh.maxcarga;
+    veh.GetPlaca(placaa);
+    SetPlaca(placaa);
 }
 
 void Vehiculo::lee(ifstream &arch){

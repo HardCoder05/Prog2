@@ -33,14 +33,6 @@ void Camion::lee(ifstream &arch){
     arch.get();
 }
 
-void Camion::cargadeposito(NPedido &pedido){
-    if(GetActcarga() + pedido.GetPeso() <= GetMaxcarga() 
-            and mdeposito.size() < 5){
-        SetActcarga(GetActcarga() + pedido.GetPeso());
-        mdeposito[mdeposito.size()] = pedido;
-    }
-}
-
 void Camion::imprime(ofstream &arch){
     Vehiculo::imprime(arch);
     arch<<"Ejes:"<<setw(14)<<ejes<<endl;
@@ -61,5 +53,14 @@ void Camion::imprime(ofstream &arch){
     }
     arch<<endl;
 }
+
+void Camion::cargadeposito(NPedido &pedido){
+    if(GetActcarga() + pedido.GetPeso() <= GetMaxcarga() 
+            and mdeposito.size() < 5){
+        SetActcarga(GetActcarga() + pedido.GetPeso());
+        mdeposito[mdeposito.size()] = pedido;
+    }
+}
+
 
 

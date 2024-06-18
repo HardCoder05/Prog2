@@ -13,6 +13,11 @@ NPedido::NPedido() {
     codigo = nullptr;
 }
 
+NPedido::NPedido(const NPedido& orig){ //tmb es necesario
+    codigo = nullptr;
+    *this = orig;
+}
+
 NPedido::~NPedido() {
     if(codigo) delete []codigo;
 }
@@ -43,6 +48,12 @@ void NPedido::GetCodigo(char *cod) const {
     else strcpy(cod, codigo);
 }
 
-
+void NPedido::operator =(const NPedido &nped){
+    char cod[10];
+    nped.GetCodigo(cod);
+    SetCodigo(cod);
+    cantidad = nped.cantidad;
+    peso = nped.peso;
+}
 
 

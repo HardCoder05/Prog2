@@ -12,6 +12,7 @@
 class NPedido {
 public:
     NPedido();
+    NPedido(const NPedido& orig);
     virtual ~NPedido();
     void SetPeso(double peso);
     double GetPeso() const;
@@ -19,6 +20,7 @@ public:
     int GetCantidad() const;
     void SetCodigo(char* codigo);
     void GetCodigo(char *) const;
+    void operator =(const NPedido &);
 private:
     char *codigo;
     int cantidad;

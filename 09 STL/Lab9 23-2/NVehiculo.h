@@ -17,7 +17,9 @@ using namespace std;
 class NVehiculo {
 public:
     NVehiculo();
+    NVehiculo(const NVehiculo& orig);
     virtual ~NVehiculo();
+    void operator =(const NVehiculo &);
     void leer(ifstream &arch);
     bool operator <(const NVehiculo &);
     bool comparar(int);

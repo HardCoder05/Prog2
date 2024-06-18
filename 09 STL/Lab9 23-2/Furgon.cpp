@@ -33,14 +33,6 @@ void Furgon::lee(ifstream &arch){
     arch.get();
 }
 
-void Furgon::cargadeposito(NPedido &pedido){
-    if(GetActcarga() + pedido.GetPeso() <= GetMaxcarga()){
-        SetActcarga(GetActcarga() + pedido.GetPeso());
-        //la lista se manejara como una pila
-        pdeposito.push_front(pedido);
-    }
-}
-
 void Furgon::imprime(ofstream &arch){
     Vehiculo::imprime(arch);
     arch<<"Filas: "<<setw(12)<<filas<<endl;
@@ -65,5 +57,14 @@ void Furgon::imprime(ofstream &arch){
     
     arch<<endl;
 }
+
+void Furgon::cargadeposito(NPedido &pedido){
+    if(GetActcarga() + pedido.GetPeso() <= GetMaxcarga()){
+        SetActcarga(GetActcarga() + pedido.GetPeso());
+        //la lista se manejara como una pila
+        pdeposito.push_front(pedido);
+    }
+}
+
 
 

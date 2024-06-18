@@ -25,8 +25,8 @@ public:
     void SetEjes(int ejes);
     int GetEjes() const;
     void lee(ifstream &);
-    void cargadeposito(NPedido &);
     void imprime(ofstream &);
+    void cargadeposito(NPedido &);
 private:
     int ejes;
     int llantas;

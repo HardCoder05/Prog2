@@ -27,6 +27,7 @@ public:
     void GetPlaca(char *placa) const;
     void SetCliente(int cliente);
     int GetCliente() const;
+    void operator =(const Vehiculo &);
     virtual void lee(ifstream &);
     virtual void cargadeposito(NPedido &) = 0;
     virtual void imprime(ofstream &);

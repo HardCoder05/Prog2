@@ -25,12 +25,12 @@ public:
     void SetFilas(int filas);
     int GetFilas() const;
     void lee(ifstream &);
-    void cargadeposito(NPedido &);
     void imprime(ofstream &);
+    void cargadeposito(NPedido &);
 private:
     int filas;
     int puertas;
-    list<class NPedido> pdeposito;
+    list<NPedido> pdeposito;
 };
 
 #endif /* FURGON_H */
