@@ -1,0 +1,129 @@
+H              1             20
+Lista contenidos:
+Todo se desmorona                                           100            0.4
+Chinua Achebe
+Cien anios de soledad                                       210            0.5
+Gabriel Garcia Marquez
+Las aventuras de Pinocho                                    120            0.4
+Carlo Collodi
+La Iliada                                                   200            0.5
+Homero
+Confesiones de una mascara                                  80            0.3
+Yukio Mishima
+El viejo y el mar                                           110            0.4
+Hernest Hemingway
+El otonio del patriarca                                     105            0.5
+Gabriel Garcia Marquez
+ENCICLOPEDIA SALVAT                                         2000             12
+78323           2015              1
+Diamantes y pedernales                                      120            0.4
+Jose Maria Arguedas
+
+V              2             10
+Lista contenidos:
+Boletin de Arqueologia PUCP                                 40           0.25
+10292004           2023              3              1
+Apocalipticos e integrados                                  120            0.4
+Umberto Eco
+El doble                                                    120            0.4
+Fiodor Dostoyevski
+Los pilares de la tierra                                    98            0.3
+Ken Follett
+Espania con honra                                           104            0.4
+Daniel Aquillue
+La chica del tren                                           100            0.4
+Paula Hawkins
+LA ENCICLOPEDIA DE LOS DINOSAURIOS                          448              2
+36225           2018              1
+LA ENCICLOPEDIA DE LOS BARCOS                               544              2
+35902           2014              1
+
+H              3             15
+Lista contenidos:
+Travesuras de la ninia mala                                 78            0.3
+Mario Vargas Llosa
+Ficciones                                                   104            0.4
+Jorge Luis Borges
+El problema final                                           100            0.4
+Arturo Perez-Reverte
+El cementerio de Praga                                      100            0.4
+Umberto Eco
+El pendulo de Foucault                                      98            0.3
+Umberto Eco
+Las aventuras de Sherlock Holmes                            104            0.4
+Arthur Conan Doyle
+El handicap de la vida                                      100            0.3
+Rudyard Kipling
+Relato de un naufrago                                       120            0.4
+Gabriel Garcia Marquez
+Boletin de Arqueologia PUCP                                 52           0.25
+10292004           2019              1              1
+Boletin de Arqueologia PUCP                                 52           0.25
+10292004           2021              2              1
+Boletin de Arqueologia PUCP                                 52           0.25
+10292004           2021              4              1
+Boletin de Arqueologia PUCP                                 52           0.25
+10292004           2022              2              1
+Boletin de Arqueologia PUCP                                 50           0.25
+10292004           2022              3              1
+Boletin de Arqueologia PUCP                                 48           0.25
+10292004           2023              1              1
+Boletin de Arqueologia PUCP                                 45           0.25
+10292004           2023              2              1
+
+H              4             10
+Lista contenidos:
+Don Quijote de la Mancha                                    120            0.7
+Miguel de Cervantes
+La piel del tambor                                          120            0.5
+Arturo Perez-Reverte
+Hombres buenos                                              120            0.5
+Arturo Perez-Reverte
+Harry Potter y la Orden del Fenix ( Harry Potter 5)         120            0.5
+J. K. Rowling
+Revolucion                                                  120            0.5
+Arturo Perez-Reverte
+El codigo Da Vinci                                          120            0.5
+Dan Brown
+El nombre de la rosa                                        105            0.6
+Umberto Eco
+Los tres mosqueteros                                        100            0.3
+Alejandro Dumas
+El evangelio seg n Jesucristo                               100            0.5
+Jose Saramago
+Tormenta de espadas                                         100            0.4
+George R.R.Martin
+
+V              5             15
+Lista contenidos:
+Los hombres que no amaban a las mujeres                     120            0.5
+Stieg Larsson
+El hombre que pudo reinar                                   120            0.5
+Rudyard Kipling
+El Principito                                               80            0.4
+Antoine de Saint-Exupery
+Dioses tumbas y sabios                                      120            0.5
+C. W. Ceram
+La Eneida                                                   120            0.5
+Virgilio
+1984                                                        120            0.5
+George Orwell
+El Hobbit                                                   120            0.5
+J.R.R. Tolkien
+Historia de la Edad Media                                   120            0.5
+Indro Montanelli
+Cumbres borrascosas                                         120            0.5
+Emily Bront 
+Una historia de Espania                                     120            0.5
+Arturo Perez-Reverte
+El corazon de las tinieblas                                 120            0.5
+Joseph Conrad
+Fortaleza digitali                                          120            0.5
+Dan Brown
+Moby Dick                                                   120            0.5
+Herman Melville
+Un dia de colera                                            120            0.5
+Arturo Perez-Reverte
+Paris era una fiesta                                        120            0.5
+Hernest Hemingway
+
