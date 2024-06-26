@@ -1,0 +1,19 @@
+P9A-528   CASTILLO/MEJIA/GUSTAVO-ALONSO   Lima   Ica   Arequipa   Moquegua   Tacna   3   10
+H9R-580   SAENZ/ARANDA/WILMER   Lima   Junin   Pasco   Pucallpa   8   25
+V1S-429   CALIXTO/TORRES/MIGUEL   Lima   Huanuco   Pucallpa   Yurimaguas   Iquitos   5   15
+Z0V-608   ZARATE/URBINA/DELIA   Lima   Huaraz   Trujillo   Cajamarca   Chachapoyas   Tarapoto   7   22
+Q8B-464   ZAMORA/CABRERA/CARMEN   Lima   Huaraz   Trujillo   Chiclayo   Piura   Sullana   Tumbes   9   25
+M3H-482   CABRERA/MORENO/DELIA-ESTEFANIA   Lima   Huacho   Pasco   9   25
+G8Y-563   FLORENCIO/POLO/FIORELLA-ERIKA   Lima   Ayacucho   Abancay   15   33
+W0O-821   CHUNG/ZUNIGA/ZKENIA-IRMA   Lima   Ayacucho   Abancay   Cuzco   Puno   5   24
+Q6F-925   JOLAY/CHUMPITAZ/WALTER   Lima   Arequipa   Juliaca   Puno   7   20
+G7Y-809   TABORI/ARIAS/ROSARIO   Lima   Arequipa   Cuzco   Puerto-Maldonado   9   25
+F1D-694   RODRIGUEZ/SERRANO/CESAR-JAIME   Lima   Huancavelica   Ayacucho   4   19
+I1X-633   VILCARA/JUGO/JULIO   Lima   Huancavelica   Pasco   Huanuco   Tingo-Maria   5   20
+H7K-813   AMEZQUITA/CONTRERAS/HUMBERTO-ALFONSO   Lima   Huaraz   Huanuco   Moyobamaba   8   25
+W4M-272   SHIRAKAWA/FLORIAN/JAIME-JULIAN   Lima   Moquegua   Tacna   10   20
+S0M-437   COLLADO/VILLA/RAUL   Lima   Trujillo   Piura   Tumbes   9   27
+U3G-207   PEREZ/ANTEZANO/DAVID-CARLOS   Lima   Pisco   Ica   Nazca   7   20
+W4X-437   ZEGARRA/CABELLO/CINTHIA-MILENA   Lima   Chiclayo   Paita   Sullana   Talara   5   15
+M9J-101   NORABUENA/ZEGARRA/DELICIA   Lima   Huacho   Cimbote   10   31
+FIN
