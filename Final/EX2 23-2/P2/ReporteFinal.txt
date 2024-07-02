@@ -1,0 +1,56 @@
+Codigo Cliente: 52097922
+Placa:          A1Q-612
+Carga Maxima:  1000
+Carga Actual: 612.1
+Ejes:             2
+Llantas:          6
+Pedidos:
+ISU.815         5     2.5
+OWN.701         2       3
+GBD.525         5     275
+UTN.601         2     1.6
+XSD.310         6     330
+
+Codigo Cliente: 59407188
+Placa:          D9A-711
+Carga Maxima:   300
+Carga Actual: 101.5
+Filas:            2
+Puertas:          3
+Pedidos:
+     BIT.434       6      60
+     OWN.701       1     1.5
+     RDT.761       5      25
+     LYZ.614       3      15
+
+Codigo Cliente: 27635082
+Placa:          O8J-848
+Carga Maxima:  1000
+Carga Actual:     0
+Ejes:             3
+Llantas:          6
+Pedidos:
+No hay pedidos
+
+Codigo Cliente: 69639726
+Placa:          Q5S-871
+Carga Maxima:   300
+Carga Actual:    10
+Filas:            2
+Puertas:          3
+Pedidos:
+     OPT.996       3       9
+     DON.719       1       1
+
+Codigo Cliente: 98140264
+Placa:          Z4L-514
+Carga Maxima:   400
+Carga Actual:   150
+Filas:            1
+Puertas:          2
+Pedidos:
+     DFF.034       2       1
+     BRD.969       1      60
+     QHC.492       4      80
+     CJE.310       3       9
+
