@@ -1,7 +1,7 @@
 
 /* 
  * File:   Camion.h
- * Author: rio88
+ * Author: 
  *
  * Created on 16 de junio de 2024, 04:52 PM
  */

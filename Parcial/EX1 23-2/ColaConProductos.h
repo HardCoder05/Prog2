@@ -1,7 +1,7 @@
 
 /* 
  * File:   ColaConProductos.h
- * Author: rio88
+ * Author: 
  *
  * Created on 5 de mayo de 2024, 12:49 PM
  */

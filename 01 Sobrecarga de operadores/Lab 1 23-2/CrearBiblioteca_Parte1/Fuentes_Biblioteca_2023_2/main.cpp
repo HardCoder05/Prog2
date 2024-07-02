@@ -1,7 +1,7 @@
 
 /* 
  * File:   main.cpp
- * Author: rio88
+ * Author: 
  *
  * Created on 23 de marzo de 2024, 04:13 PM
  */

@@ -1,7 +1,7 @@
 
 /* 
  * File:   NVehiculo.h
- * Author: rio88
+ * Author: 
  *
  * Created on 16 de junio de 2024, 04:55 PM
  */

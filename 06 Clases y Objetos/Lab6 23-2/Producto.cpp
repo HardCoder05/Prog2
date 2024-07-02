@@ -1,7 +1,7 @@
 
 /* 
  * File:   Producto.cpp
- * Author: rio88
+ * Author: 
  * 
  * Created on 21 de mayo de 2024, 09:25 AM
  */

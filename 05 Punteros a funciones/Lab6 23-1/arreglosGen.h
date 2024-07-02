@@ -1,7 +1,7 @@
 
 /* 
  * File:   arreglosGen.h
- * Author: rio88
+ * Author: 
  *
  * Created on 2 de mayo de 2024, 11:04 AM
  */

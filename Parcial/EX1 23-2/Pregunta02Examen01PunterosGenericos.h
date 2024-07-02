@@ -1,7 +1,7 @@
 
 /* 
  * File:   Pregunta02Examen01PunterosGenericos.h
- * Author: rio88
+ * Author: 
  *
  * Created on 5 de mayo de 2024, 10:46 AM
  */

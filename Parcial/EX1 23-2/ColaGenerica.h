@@ -1,7 +1,7 @@
 
 /* 
  * File:   ColaGenerica.h
- * Author: rio88
+ * Author: 
  *
  * Created on 5 de mayo de 2024, 11:48 AM
  */

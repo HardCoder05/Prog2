@@ -1,7 +1,7 @@
 
 /* 
  * File:   Tesoreria.cpp
- * Author: rio88
+ * Author: 
  * 
  * Created on 6 de junio de 2024, 01:00 PM
  */

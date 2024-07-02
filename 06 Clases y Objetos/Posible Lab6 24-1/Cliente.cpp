@@ -1,7 +1,7 @@
 
 /* 
  * File:   Cliente.cpp
- * Author: rio88
+ * Author: 
  * 
  * Created on 23 de mayo de 2024, 10:10 AM
  */

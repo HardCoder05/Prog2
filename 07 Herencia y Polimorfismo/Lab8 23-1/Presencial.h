@@ -1,7 +1,7 @@
 
 /* 
  * File:   Presencial.h
- * Author: rio88
+ * Author: 
  *
  * Created on 25 de mayo de 2024, 06:10 PM
  */

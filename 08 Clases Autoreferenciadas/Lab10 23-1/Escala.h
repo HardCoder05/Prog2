@@ -1,7 +1,7 @@
 
 /* 
  * File:   Escala.h
- * Author: rio88
+ * Author: 
  *
  * Created on 6 de junio de 2024, 12:44 PM
  */

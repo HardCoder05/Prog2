@@ -1,7 +1,7 @@
 
 /* 
  * File:   PilaConEnteros.h
- * Author: rio88
+ * Author: 
  *
  * Created on 28 de abril de 2024, 03:31 PM
  */

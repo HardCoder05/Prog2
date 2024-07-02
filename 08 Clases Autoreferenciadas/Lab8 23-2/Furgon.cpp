@@ -1,7 +1,7 @@
 
 /* 
  * File:   Furgon.cpp
- * Author: rio88
+ * Author: 
  * 
  * Created on 9 de junio de 2024, 11:22 AM
  */

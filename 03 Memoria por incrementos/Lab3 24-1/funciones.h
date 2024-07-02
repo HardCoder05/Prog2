@@ -1,7 +1,7 @@
 
 /* 
  * File:   funciones.h
- * Author: rio88
+ * Author: 
  *
  * Created on 21 de abril de 2024, 04:44 PM
  */
