@@ -18,10 +18,10 @@ Carga Actual: 101.5
 Filas:            2
 Puertas:          3
 Pedidos:
-     BIT.434       6      60
      OWN.701       1     1.5
-     RDT.761       5      25
      LYZ.614       3      15
+     RDT.761       5      25
+     BIT.434       6      60
 
 Codigo Cliente: 27635082
 Placa:          O8J-848
@@ -39,8 +39,8 @@ Carga Actual:    10
 Filas:            2
 Puertas:          3
 Pedidos:
-     OPT.996       3       9
      DON.719       1       1
+     OPT.996       3       9
 
 Codigo Cliente: 98140264
 Placa:          Z4L-514
@@ -50,7 +50,7 @@ Filas:            1
 Puertas:          2
 Pedidos:
      DFF.034       2       1
+     CJE.310       3       9
      BRD.969       1      60
      QHC.492       4      80
-     CJE.310       3       9
 
